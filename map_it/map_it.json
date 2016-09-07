@@ -1,0 +1,255 @@
+{
+  "libraries": [
+    {
+      "id": "MAIN",
+      "name": "Li Ka Shing Library",
+      "locations": [
+        {
+          "id": "3 Days L3",
+          "name": "3 Days Level 3",
+          "shelves": []
+        },
+        {
+          "id": "3 Days L4",
+          "name": "3 Days Level 4",
+          "shelves": []
+        },
+        {
+          "id": "LendingL3",
+          "name": "Books Level 3",
+          "shelves": []
+        },
+        {
+          "id": "LendingL4",
+          "name": "Books Level 4",
+          "shelves": []
+        },
+        {
+          "id": "DisplayL2",
+          "name": "Display Shelves Level 2",
+          "shelves": []
+        },
+        {
+          "id": "JournalL3",
+          "name": "Journals Level 3",
+          "shelves": []
+        },
+        {
+          "id": "Lvl3Temp",
+          "name": "Level 3 Temporary",
+          "shelves": []
+        },
+        {
+          "id": "Lifestyle",
+          "name": "Lifestyle Level 2",
+          "shelves": [
+            {
+              "range_start": "B105 .T54",
+              "range_end": "PR6066 .A6956",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "tnflve.png"
+              }
+            },
+            {
+              "range_start": "PR6066 .R34",
+              "range_end": "PS3557 .R2864",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "njjxns.png"
+              }
+            },
+            {
+              "range_start": "PS3557 .R5355",
+              "range_end": "Z1003 .P576",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "ncibxw.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "MediaLvl2",
+          "name": "Media Level 2",
+          "shelves": [
+            {
+              "range_start": "BC108 .L43",
+              "range_end": "PJ6308 .B37",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "ogdzth.png"
+              }
+            },
+            {
+              "range_start": "PJ6308 .U48",
+              "range_end": "PN1997 .P465",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "futzdc.png"
+              }
+            },
+            {
+              "range_start": "PN1997 .P472",
+              "range_end": "Z7163 .J685",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "kryclm.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "NewsLvl2",
+          "name": "Newspapers and Magazines",
+          "shelves": [
+            {
+              "range_start": "AP2 .N6763",
+              "range_end": "GV942 .F68",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "dsbzvl.png"
+              }
+            },
+            {
+              "range_start": "HD62.6 .N68",
+              "range_end": "HF3851 .H66",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "zrbovx.png"
+              }
+            },
+            {
+              "range_start": "HG3753 .T74",
+              "range_end": "KPP5.5 .S56",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "gklmsw.png"
+              }
+            },
+            {
+              "range_start": "ML5 .W67",
+              "range_end": "TK5105.5 .W57",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "ihcmdv.png"
+              }
+            },
+            {
+              "range_start": "TT500 .N95",
+              "range_end": "TX633 .B65",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "tffyqu.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CR3H",
+          "name": "Reserves 3 Hours",
+          "shelves": [
+            {
+              "range_start": "AM5 .A43",
+              "range_end": "HC465 .H53",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "ankqey.png"
+              }
+            },
+            {
+              "range_start": "HD29 .S76",
+              "range_end": "HF5636 .P75",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "tzwuqt.png"
+              }
+            },
+            {
+              "range_start": "HF5657.4 .A38",
+              "range_end": "K235 .O93",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "byzmgz.png"
+              }
+            },
+            {
+              "range_start": "K237 .H3",
+              "range_end": "KD1949 .W55",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "ikyklw.png"
+              }
+            },
+            {
+              "range_start": "KD1949.6 .D48",
+              "range_end": "KPP112 .W45",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "gobvnu.png"
+              }
+            },
+            {
+              "range_start": "KPP112.2 .W45",
+              "range_end": "ZA3075 .B34",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "joykmp.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CRMedia",
+          "name": "Reserves Media",
+          "shelves": [
+            {
+              "range_start": "DS774 .C45",
+              "range_end": "VK203 .P573",
+              "map": {
+                "background": "level_2_background.png",
+                "overlay": "xllmaf.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KGC",
+      "name": "Kwa Geok Choo Law Library",
+      "locations": [
+        {
+          "id": "3DaysL4",
+          "name": "3 Days Level 4",
+          "shelves": []
+        },
+        {
+          "id": "CR3",
+          "name": "Course Reserve 3 Hrs",
+          "shelves": []
+        },
+        {
+          "id": "LLCR",
+          "name": "Course Reservers at Law Library",
+          "shelves": []
+        },
+        {
+          "id": "Journals",
+          "name": "Journals L4",
+          "shelves": []
+        },
+        {
+          "id": "LawReport",
+          "name": "Law Report L4",
+          "shelves": []
+        },
+        {
+          "id": "LendingL4",
+          "name": "Lending Level 4",
+          "shelves": []
+        }
+      ]
+    }
+  ]
+}
