@@ -1,15 +1,24 @@
-// map_it.js
+/**
+ * @module map_it/map_it
+ * @requires express
+ * @requires map_it/dbo
+ */
 
 var express = require('express');
 var router = express.Router();
 var dbo = require('./dbo');
 var libraries = new dbo();
 
-// Set up default routes.
+/**
+ * Set up the root to show the library list.
+ */
 router.get('/', function(req, res, next) {
   res.render('library_list', { list: libraries.libraries });
 });
 
+/**
+ * Handle the library code by showing the location list.
+ */
 router.get('/:library_code', function(req, res, next) {
   var library = libraries.findLibraryByCode(req.params.library_code);
   if (library == null) {
@@ -23,6 +32,9 @@ router.get('/:library_code', function(req, res, next) {
   }
 });
 
+/**
+ * Handle the location code by showing the shelf list.
+ */
 router.get('/:library_code/:location_code', function(req, res, next) {
   var location = libraries.findLocationByCode(req.params.library_code, req.params.location_code);
   if (location == null) {
@@ -37,6 +49,9 @@ router.get('/:library_code/:location_code', function(req, res, next) {
   }
 });
 
+/**
+ * Handle the call number by showing the actual map.
+ */
 router.get('/:library_code/:location_code/:call_number', function(req, res, next) {
   var shelf = libraries.findShelfByCallNumber(req.params.library_code,
                                               req.params.location_code,
