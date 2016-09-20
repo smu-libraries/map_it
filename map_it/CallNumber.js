@@ -11,11 +11,11 @@
  * @throws call_number cannot be parsed correctly.
  */
 var CallNumber = function(call_number) {
-  if (typeof(call_number) != 'string') throw 'call_number is not a string';
+  if (typeof call_number !== 'string') throw 'call_number is not a string';
 
   call_number = call_number.replace(/\+/g, ' ').toUpperCase();  /** Alma uses '+' instead of whitespace */
   var matches = new RegExp(/^([A-Z]+)([0-9\.]+)(\s+\.([A-Z])([0-9]+))?\b/).exec(call_number);
-  if (!matches) throw 'Cannot parse call number' + call_number;
+  if (!matches) throw 'Cannot parse call number ' + call_number;
 
   /**
    * @property {string} original_call_number - The orginal call number (in uppercase).
@@ -28,19 +28,26 @@ var CallNumber = function(call_number) {
   this.class_alpha = matches[1];
 
   /**
-   * @property {string} class_digit - The numeric portion of the LC class.
+   * @property {number} class_digit - The numeric portion of the LC class.
    */
-  this.class_digit = matches[2];
+  this.class_digit = parseFloat(matches[2]);
+  if (isNaN(this.class_digit) || this.class_digit === 0) throw 'Cannot parse call number ' + call_number;
 
   /**
    * @property {string|null} cutter_alpha - The alphabet portion of the first Cutter.
    */
   this.cutter_alpha = matches[4];
+  if (this.cutter_alpha === undefined) this.cutter_alpha = null;
 
   /**
-   * @property {string|null} cutter_digit - The numeric portion of the first Cutter.
+   * @property {number|null} cutter_digit - The numeric portion of the first Cutter.
    */
-  this.cutter_digit = matches[5];
+  this.cutter_digit = parseFloat(matches[5]);
+  if (isNaN(this.cutter_digit)) this.cutter_digit = null;
+  if (this.cutter_digit === 0) throw 'Cannot parse call number ' + call_number;
+
+  /** cutter_alpha and cutter_digit must both have values or both null */
+  if ((!this.cutter_alpha && this.cutter_digit) || (this.cutter_alpha && !this.cutter_digit)) throw 'Cannot parse call number ' + call_number;
 
   return this;
 };
@@ -55,16 +62,32 @@ var CallNumber = function(call_number) {
 CallNumber.prototype.compareTo = function(other) {
   if (!other instanceof CallNumber) throw 'other is not a CallNumber';
 
-  if (other.class_alpha == this.class_alpha) {
-    if (other.class_digit == this.class_digit) {
-      if (other.cutter_alpha == this.cutter_alpha) {
-        if (other.cutter_digit == this.cutter_digit) {
+  if (other.class_alpha === this.class_alpha) {
+    if (other.class_digit === this.class_digit) {
+      if (other.cutter_alpha === this.cutter_alpha) {
+        if (other.cutter_digit === this.cutter_digit) {
+          /** All fields match */
           return 0;
         } else {
-          return parseFloat('0.' + other.cutter_digit) > parseFloat('0.' + this.cutter_digit) ? -1 : 1;
+          /** Check for nulls */
+          if (!other.cutter_digit && this.cutter_digit) {
+            return 1;
+          } else if (other.cutter_digit && !this.cutter_digit) {
+            return -1;
+          } else {
+            /** Compare as if this is the decimal portion of a number */
+            return parseFloat('0.' + other.cutter_digit) > parseFloat('0.' + this.cutter_digit) ? -1 : 1;
+          }
         }
       } else {
-        return other.cutter_alpha > this.cutter_alpha ? -1 : 1;
+        /** Check for nulls */
+        if (!other.cutter_alpha && this.cutter_alpha) {
+          return 1;
+        } else if (other.cutter_alpha && !this.cutter_alpha) {
+          return -1;
+        } else {
+          return other.cutter_alpha > this.cutter_alpha ? -1 : 1;
+        }
       }
     } else {
       return other.class_digit > this.class_digit ? -1 : 1;
@@ -86,17 +109,15 @@ CallNumber.prototype.compareTo = function(other) {
  * @throws range_end is null or not a string.
  */
 CallNumber.isInRange = function(call_number, range_start, range_end) {
-  if (typeof(call_number) != 'string') throw 'call_number is not a string';
-  if (typeof(range_start) != 'string') throw 'range_start is not a string';
-  if (typeof(range_end) != 'string') throw 'range_end is not a string';
+  if (typeof call_number !== 'string') throw 'call_number is not a string';
+  if (typeof range_start !== 'string') throw 'range_start is not a string';
+  if (typeof range_end !== 'string') throw 'range_end is not a string';
 
   cn = new CallNumber(call_number);
   rs = new CallNumber(range_start);
   re = new CallNumber(range_end);
 
-  /**
-   * Should work whether range_start or range_end is the smaller call number.
-   */
+  /** Should work whether range_start or range_end is smaller */
   if (rs.compareTo(re) < 0) {
     return cn.compareTo(rs) >= 0 && cn.compareTo(re) <= 0;
   } else {
