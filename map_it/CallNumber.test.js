@@ -282,5 +282,9 @@ describe('CallNumber', function() {
     it('[   x', function() {
       assert.strictEqual(true, CallNumber.isInRange(cn3, cn1, cn3));
     });
+
+    it('x   x', function() {
+      assert.strictEqual(true, CallNumber.isInRange(cn1, cn1, cn1));
+    });
   });
 });
