@@ -28,7 +28,7 @@ var dbo = function() {
  * @throws library_code is null or not a string.
  */
 dbo.prototype.findLibraryByCode = function(library_code) {
-  if (typeof(library_code) != 'string') throw 'library_code is not a string';
+  if (typeof(library_code) != 'string') throw new Error('library_code is not a string');
 
   for (var i in this.libraries) {
     var library = this.libraries[i];
@@ -48,8 +48,8 @@ dbo.prototype.findLibraryByCode = function(library_code) {
  * @throws location_code is null or not a string.
  */
 dbo.prototype.findLocationByCode = function(library_code, location_code) {
-  if (typeof(library_code) != 'string') throw 'library_code is not a string';
-  if (typeof(location_code) != 'string') throw 'location_code is not a string';
+  if (typeof(library_code) != 'string') throw new Error('library_code is not a string');
+  if (typeof(location_code) != 'string') throw new Error('location_code is not a string');
 
   var library = this.findLibraryByCode(library_code);
   if (library != null) {
@@ -74,9 +74,9 @@ dbo.prototype.findLocationByCode = function(library_code, location_code) {
  * @throws call_number is null or not a string.
  */
 dbo.prototype.findShelfByCallNumber = function(library_code, location_code, call_number) {
-  if (typeof(library_code) != 'string') throw 'library_code is not a string';
-  if (typeof(location_code) != 'string') throw 'location_code is not a string';
-  if (typeof(call_number) != 'string') throw 'call_number is not a string';
+  if (typeof(library_code) != 'string') throw new Error('library_code is not a string');
+  if (typeof(location_code) != 'string') throw new Error('location_code is not a string');
+  if (typeof(call_number) != 'string') throw new Error('call_number is not a string');
 
   var location = this.findLocationByCode(library_code, location_code);
   if (location != null) {
