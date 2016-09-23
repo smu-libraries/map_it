@@ -1,6 +1,5 @@
 /**
- * @module map_it/dbo
- * @requires map_it/CallNumber
+ * @file Implements the data access object.
  */
 
 let CallNumber = require('./CallNumber');

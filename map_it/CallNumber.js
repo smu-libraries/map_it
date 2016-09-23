@@ -1,5 +1,5 @@
 /**
- * @module map_it/CallNumber
+ * @file Implements the CallNumber class.
  */
 
 /**
@@ -9,7 +9,6 @@ class CallNumber {
   /**
    * Creates a CallNumber.
    *
-   * @constructor
    * @param {string} call_number - The call number to parse.
    * @throws {Error} call_number is null or not a string.
    * @throws {Error} call_number cannot be parsed correctly.
@@ -22,29 +21,29 @@ class CallNumber {
     if (!matches) throw new Error('Cannot parse call_number: ' + call_number);
 
     /**
-     * The orginal call number (in uppercase).
+     * @property {string} original_call_number - The original call number (in uppercase).
      */
     this.original_call_number = call_number;
 
     /**
-     * The alphabet portion of the LC class.
+     * @property {string} class_alpha - The alphabet portion of the LC class.
      */
     this.class_alpha = matches[1];
     if (!this.class_alpha) throw new Error('Cannot parse call_number: ' + call_number);
 
     /**
-     * The numeric portion of the LC class.
+     * @property {string} class_digit - The numeric portion of the LC class.
      */
     this.class_digit = parseFloat(matches[2]);
     if (!this.class_digit) throw new Error('Cannot parse call_number: ' + call_number);
 
     /**
-     * The alphabet portion of the first Cutter.
+     * @property {string|null} cutter_alpha - The alphabet portion of the first Cutter.
      */
     this.cutter_alpha = matches[4] || null;
 
     /**
-     * The numeric portion of the first Cutter.
+     * @property {string|null} cutter_digit - The numeric portion of the first Cutter.
      */
     this.cutter_digit = parseFloat(matches[5]);
     if (isNaN(this.cutter_digit)) this.cutter_digit = null;

@@ -1,5 +1,5 @@
 /**
- * CallNumber.test.js
+ * @file Unit tests for CallNumber class.
  */
 
 let assert = require('assert');
@@ -228,7 +228,7 @@ describe('CallNumber', () => {
     });
   });
 
-  describe('#isInRange()', () => {
+  describe('.isInRange()', () => {
     let cn1 = 'B105 .P3555 2011';
     let cn2 = 'KD1949.6 .E48 2009';
     let cn3 = 'KPP126.1 .W2995 2014';

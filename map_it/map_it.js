@@ -1,7 +1,5 @@
 /**
- * @module map_it/map_it
- * @requires express
- * @requires map_it/dbo
+ * @file Implements the routing for map_it.
  */
 
 let express = require('express');
