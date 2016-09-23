@@ -55,13 +55,6 @@ class CallNumber {
   }
 
   /**
-   * @property {string} originalCallNumber - The orginal call number (in uppercase).
-   */
-  get originalCallNumber() {
-    return this.original_call_number;
-  }
-
-  /**
    * Returns a negative integer, zero or positive integer as this CallNumber is less than, equal to or greater than the specified CallNumber.
    *
    * @param {CallNumber} other - The CallNumber to compare to.
