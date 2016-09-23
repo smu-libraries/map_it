@@ -4,23 +4,23 @@
  * @requires map_it/dbo
  */
 
-var express = require('express');
-var router = express.Router();
-var dbo = require('./dbo');
-var libraries = new dbo();
+let express = require('express');
+let router = express.Router();
+let dbo = require('./dbo');
+let libraries = new dbo();
 
 /**
  * Set up the root to show the library list.
  */
-router.get('/', function(req, res, next) {
+router.get('/', (req, res, next) => {
   res.render('library_list', { list: libraries.libraries });
 });
 
 /**
  * Handle the library code by showing the location list.
  */
-router.get('/:library_code', function(req, res, next) {
-  var library = libraries.findLibraryByCode(req.params.library_code);
+router.get('/:library_code', (req, res, next) => {
+  let library = libraries.findLibraryByCode(req.params.library_code);
   if (library == null) {
     res.redirect('/map_it');
   } else {
@@ -35,8 +35,8 @@ router.get('/:library_code', function(req, res, next) {
 /**
  * Handle the location code by showing the shelf list.
  */
-router.get('/:library_code/:location_code', function(req, res, next) {
-  var location = libraries.findLocationByCode(req.params.library_code, req.params.location_code);
+router.get('/:library_code/:location_code', (req, res, next) => {
+  let location = libraries.findLocationByCode(req.params.library_code, req.params.location_code);
   if (location == null) {
     res.redirect('/map_it');
   } else {
@@ -52,10 +52,8 @@ router.get('/:library_code/:location_code', function(req, res, next) {
 /**
  * Handle the call number by showing the actual map.
  */
-router.get('/:library_code/:location_code/:call_number', function(req, res, next) {
-  var shelf = libraries.findShelfByCallNumber(req.params.library_code,
-                                              req.params.location_code,
-                                              req.params.call_number);
+router.get('/:library_code/:location_code/:call_number', (req, res, next) => {
+  let shelf = libraries.findShelfByCallNumber(req.params.library_code, req.params.location_code, req.params.call_number);
   if (shelf == null) {
     res.redirect('/map_it');
   } else {
