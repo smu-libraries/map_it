@@ -12,9 +12,9 @@ let json = require('./map_it.json');
  */
 let dbo = function() {
   /**
-   * @property {object[]} libraries - The array of all library objects.
+   * @property {object} libraries - The object containing all library information.
    */
-  this.libraries = json.libraries;
+  this.libraries = json;
 
   return this;
 };
@@ -29,12 +29,7 @@ let dbo = function() {
 dbo.prototype.findLibraryByCode = function(library_code) {
   if (typeof library_code !== 'string') throw new Error('library_code is not a string');
 
-  for (let i in this.libraries) {
-    let library = this.libraries[i];
-    if (library.id === library_code) return library;
-  }
-
-  return null;
+  return this.libraries[library_code] || null;
 };
 
 /**
@@ -51,14 +46,11 @@ dbo.prototype.findLocationByCode = function(library_code, location_code) {
   if (typeof location_code !== 'string') throw new Error('location_code is not a string');
 
   let library = this.findLibraryByCode(library_code);
-  if (library !== null) {
-    for (let i in library.locations) {
-      let location = library.locations[i];
-      if (location.id === location_code) return location;
-    }
+  if (library) {
+    return library.locations[location_code] || null;
+  } else {
+    return null;
   }
-
-  return null;
 };
 
 /**
@@ -78,7 +70,7 @@ dbo.prototype.findShelfByCallNumber = function(library_code, location_code, call
   if (typeof call_number !== 'string') throw new Error('call_number is not a string');
 
   let location = this.findLocationByCode(library_code, location_code);
-  if (location !== null) {
+  if (location) {
     for (let i in location.shelves) {
       let shelf = location.shelves[i];
       try {

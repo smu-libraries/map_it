@@ -1,255 +1,291 @@
 {
-  "libraries": [
-    {
-      "id": "MAIN",
-      "name": "Li Ka Shing Library",
-      "locations": [
-        {
-          "id": "3 Days L3",
-          "name": "3 Days Level 3",
-          "shelves": []
-        },
-        {
-          "id": "3 Days L4",
-          "name": "3 Days Level 4",
-          "shelves": []
-        },
-        {
-          "id": "LendingL3",
-          "name": "Books Level 3",
-          "shelves": []
-        },
-        {
-          "id": "LendingL4",
-          "name": "Books Level 4",
-          "shelves": []
-        },
-        {
-          "id": "DisplayL2",
-          "name": "Display Shelves Level 2",
-          "shelves": []
-        },
-        {
-          "id": "JournalL3",
-          "name": "Journals Level 3",
-          "shelves": []
-        },
-        {
-          "id": "Lvl3Temp",
-          "name": "Level 3 Temporary",
-          "shelves": []
-        },
-        {
-          "id": "Lifestyle",
-          "name": "Lifestyle Level 2",
-          "shelves": [
-            {
-              "range_start": "B105 .T54",
-              "range_end": "PR6066 .A6956",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "tnflve.png"
-              }
-            },
-            {
-              "range_start": "PR6066 .R34",
-              "range_end": "PS3557 .R2864",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "njjxns.png"
-              }
-            },
-            {
-              "range_start": "PS3557 .R5355",
-              "range_end": "Z1003 .P576",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "ncibxw.png"
-              }
+  "MAIN": {
+    "_id": "MAIN",
+    "code": "MAIN",
+    "name": "Li Ka Shing Library",
+    "locations": {
+      "3 Days L3": {
+        "_id": "3 Days L3",
+        "code": "3 Days L3",
+        "name": "3 Days Level 3",
+        "shelves": []
+      },
+      "3 Days L4": {
+        "_id": "3 Days L4",
+        "code": "3 Days L4",
+        "name": "3 Days Level 4",
+        "shelves": []
+      },
+      "LendingL3": {
+        "_id": "LendingL3",
+        "code": "LendingL3",
+        "name": "Books Level 3",
+        "shelves": []
+      },
+      "LendingL4": {
+        "_id": "LendingL4",
+        "code": "LendingL4",
+        "name": "Books Level 4",
+        "shelves": []
+      },
+      "DisplayL2": {
+        "_id": "DisplayL2",
+        "code": "DisplayL2",
+        "name": "Display Shelves Level 2",
+        "shelves": []
+      },
+      "JournalL3": {
+        "_id": "JournalL3",
+        "code": "JournalL3",
+        "name": "Journals Level 3",
+        "shelves": []
+      },
+      "Lvl3Temp": {
+        "_id": "Lvl3Temp",
+        "code": "Lvl3Temp",
+        "name": "Level 3 Temporary",
+        "shelves": []
+      },
+      "Lifestyle": {
+        "_id": "Lifestyle",
+        "code": "Lifestyle",
+        "name": "Lifestyle Level 2",
+        "shelves": [
+          {
+            "_id": "Lifestyle1",
+            "range_start": "B105 .T54",
+            "range_end": "PR6066 .A6956",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "tnflve.png"
             }
-          ]
-        },
-        {
-          "id": "MediaLvl2",
-          "name": "Media Level 2",
-          "shelves": [
-            {
-              "range_start": "BC108 .L43",
-              "range_end": "PJ6308 .B37",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "ogdzth.png"
-              }
-            },
-            {
-              "range_start": "PJ6308 .U48",
-              "range_end": "PN1997 .P465",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "futzdc.png"
-              }
-            },
-            {
-              "range_start": "PN1997 .P472",
-              "range_end": "Z7163 .J685",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "kryclm.png"
-              }
+          },
+          {
+            "_id": "Lifestyle2",
+            "range_start": "PR6066 .R34",
+            "range_end": "PS3557 .R2864",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "njjxns.png"
             }
-          ]
-        },
-        {
-          "id": "NewsLvl2",
-          "name": "Newspapers and Magazines",
-          "shelves": [
-            {
-              "range_start": "AP2 .N6763",
-              "range_end": "GV942 .F68",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "dsbzvl.png"
-              }
-            },
-            {
-              "range_start": "HD62.6 .N68",
-              "range_end": "HF3851 .H66",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "zrbovx.png"
-              }
-            },
-            {
-              "range_start": "HG3753 .T74",
-              "range_end": "KPP5.5 .S56",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "gklmsw.png"
-              }
-            },
-            {
-              "range_start": "ML5 .W67",
-              "range_end": "TK5105.5 .W57",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "ihcmdv.png"
-              }
-            },
-            {
-              "range_start": "TT500 .N95",
-              "range_end": "TX633 .B65",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "tffyqu.png"
-              }
+          },
+          {
+            "_id": "Lifestyle3",
+            "range_start": "PS3557 .R5355",
+            "range_end": "Z1003 .P576",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "ncibxw.png"
             }
-          ]
-        },
-        {
-          "id": "CR3H",
-          "name": "Reserves 3 Hours",
-          "shelves": [
-            {
-              "range_start": "AM5 .A43",
-              "range_end": "HC465 .H53",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "ankqey.png"
-              }
-            },
-            {
-              "range_start": "HD29 .S76",
-              "range_end": "HF5636 .P75",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "tzwuqt.png"
-              }
-            },
-            {
-              "range_start": "HF5657.4 .A38",
-              "range_end": "K235 .O93",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "byzmgz.png"
-              }
-            },
-            {
-              "range_start": "K237 .H3",
-              "range_end": "KD1949 .W55",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "ikyklw.png"
-              }
-            },
-            {
-              "range_start": "KD1949.6 .D48",
-              "range_end": "KPP112 .W45",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "gobvnu.png"
-              }
-            },
-            {
-              "range_start": "KPP112.2 .W45",
-              "range_end": "ZA3075 .B34",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "joykmp.png"
-              }
+          }
+        ]
+      },
+      "MediaLvl2": {
+        "_id": "MediaLvl2",
+        "code": "MediaLvl2",
+        "name": "Media Level 2",
+        "shelves": [
+          {
+            "_id": "MediaLvl21",
+            "range_start": "BC108 .L43",
+            "range_end": "PJ6308 .B37",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "ogdzth.png"
             }
-          ]
-        },
-        {
-          "id": "CRMedia",
-          "name": "Reserves Media",
-          "shelves": [
-            {
-              "range_start": "DS774 .C45",
-              "range_end": "VK203 .P573",
-              "map": {
-                "background": "level_2_background.png",
-                "overlay": "xllmaf.png"
-              }
+          },
+          {
+            "_id": "MediaLvl22",
+            "range_start": "PJ6308 .U48",
+            "range_end": "PN1997 .P465",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "futzdc.png"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "KGC",
-      "name": "Kwa Geok Choo Law Library",
-      "locations": [
-        {
-          "id": "3DaysL4",
-          "name": "3 Days Level 4",
-          "shelves": []
-        },
-        {
-          "id": "CR3",
-          "name": "Course Reserve 3 Hrs",
-          "shelves": []
-        },
-        {
-          "id": "LLCR",
-          "name": "Course Reserves at Law Library",
-          "shelves": []
-        },
-        {
-          "id": "Journals",
-          "name": "Journals L4",
-          "shelves": []
-        },
-        {
-          "id": "LawReport",
-          "name": "Law Report L4",
-          "shelves": []
-        },
-        {
-          "id": "LendingL4",
-          "name": "Lending Level 4",
-          "shelves": []
-        }
-      ]
+          },
+          {
+            "_id": "MediaLvl23",
+            "range_start": "PN1997 .P472",
+            "range_end": "Z7163 .J685",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "kryclm.png"
+            }
+          }
+        ]
+      },
+      "NewsLvl2": {
+        "_id": "NewsLvl2",
+        "code": "NewsLvl2",
+        "name": "Newspapers and Magazines",
+        "shelves": [
+          {
+            "_id": "NewsLvl21",
+            "range_start": "AP2 .N6763",
+            "range_end": "GV942 .F68",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "dsbzvl.png"
+            }
+          },
+          {
+            "_id": "NewsLvl22",
+            "range_start": "HD62.6 .N68",
+            "range_end": "HF3851 .H66",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "zrbovx.png"
+            }
+          },
+          {
+            "_id": "NewsLvl23",
+            "range_start": "HG3753 .T74",
+            "range_end": "KPP5.5 .S56",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "gklmsw.png"
+            }
+          },
+          {
+            "_id": "NewsLvl24",
+            "range_start": "ML5 .W67",
+            "range_end": "TK5105.5 .W57",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "ihcmdv.png"
+            }
+          },
+          {
+            "_id": "NewsLvl25",
+            "range_start": "TT500 .N95",
+            "range_end": "TX633 .B65",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "tffyqu.png"
+            }
+          }
+        ]
+      },
+      "CR3H": {
+        "_id": "CR3H",
+        "code": "CR3H",
+        "name": "Reserves 3 Hours",
+        "shelves": [
+          {
+            "_id": "CR3H1",
+            "range_start": "AM5 .A43",
+            "range_end": "HC465 .H53",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "ankqey.png"
+            }
+          },
+          {
+            "_id": "CR3H2",
+            "range_start": "HD29 .S76",
+            "range_end": "HF5636 .P75",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "tzwuqt.png"
+            }
+          },
+          {
+            "_id": "CR3H3",
+            "range_start": "HF5657.4 .A38",
+            "range_end": "K235 .O93",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "byzmgz.png"
+            }
+          },
+          {
+            "_id": "CR3H4",
+            "range_start": "K237 .H3",
+            "range_end": "KD1949 .W55",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "ikyklw.png"
+            }
+          },
+          {
+            "_id": "CR3H5",
+            "range_start": "KD1949.6 .D48",
+            "range_end": "KPP112 .W45",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "gobvnu.png"
+            }
+          },
+          {
+            "_id": "CR3H6",
+            "range_start": "KPP112.2 .W45",
+            "range_end": "ZA3075 .B34",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "joykmp.png"
+            }
+          }
+        ]
+      },
+      "CRMedia": {
+        "_id": "CRMedia",
+        "code": "CRMedia",
+        "name": "Reserves Media",
+        "shelves": [
+          {
+            "_id": "CRMedia1",
+            "range_start": "DS774 .C45",
+            "range_end": "VK203 .P573",
+            "map": {
+              "background": "level_2_background.png",
+              "overlay": "xllmaf.png"
+            }
+          }
+        ]
+      }
     }
-  ]
+  },
+  "KGC": {
+    "_id": "KGC",
+    "code": "KGC",
+    "name": "Kwa Geok Choo Law Library",
+    "locations": {
+      "3DaysL4": {
+        "_id": "3DaysL4",
+        "code": "3DaysL4",
+        "name": "3 Days Level 4",
+        "shelves": []
+      },
+      "CR3": {
+        "_id": "CR3",
+        "code": "CR3",
+        "name": "Course Reserve 3 Hrs",
+        "shelves": []
+      },
+      "LLCR": {
+        "_id": "LLCR",
+        "code": "LLCR",
+        "name": "Course Reserves at Law Library",
+        "shelves": []
+      },
+      "Journals": {
+        "_id": "Journals",
+        "code": "Journals",
+        "name": "Journals L4",
+        "shelves": []
+      },
+      "LawReport": {
+        "_id": "LawReport",
+        "code": "LawReport",
+        "name": "Law Report L4",
+        "shelves": []
+      },
+      "LendingL4": {
+        "_id": "LendingL4",
+        "code": "LendingL4",
+        "name": "Lending Level 4",
+        "shelves": []
+      }
+    }
+  }
 }

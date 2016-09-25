@@ -4,4 +4,4 @@ block content
   h1= location_name
   each shelf in list
     p
-      a(href="/map_it/#{library_code}/#{location_code}/#{shelf['range_start']}") #{shelf['range_start']} - #{shelf['range_end']}
+      a(href="/map_it/#{library_code}/#{location_code}/#{shelf.range_start}") #{shelf.range_start} - #{shelf.range_end}

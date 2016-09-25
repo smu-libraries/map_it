@@ -19,11 +19,11 @@ router.get('/', (req, res, next) => {
  */
 router.get('/:library_code', (req, res, next) => {
   let library = libraries.findLibraryByCode(req.params.library_code);
-  if (library == null) {
+  if (!library) {
     res.redirect('/map_it');
   } else {
     res.render('location_list', {
-      library_code: library.id,
+      library_code: req.params.library_code,
       library_name: library.name,
       list: library.locations
     });
@@ -35,7 +35,7 @@ router.get('/:library_code', (req, res, next) => {
  */
 router.get('/:library_code/:location_code', (req, res, next) => {
   let location = libraries.findLocationByCode(req.params.library_code, req.params.location_code);
-  if (location == null) {
+  if (!location) {
     res.redirect('/map_it');
   } else {
     res.render('shelf_list', {
@@ -52,7 +52,7 @@ router.get('/:library_code/:location_code', (req, res, next) => {
  */
 router.get('/:library_code/:location_code/:call_number', (req, res, next) => {
   let shelf = libraries.findShelfByCallNumber(req.params.library_code, req.params.location_code, req.params.call_number);
-  if (shelf == null) {
+  if (!shelf) {
     res.redirect('/map_it');
   } else {
     res.render('map_it', {
