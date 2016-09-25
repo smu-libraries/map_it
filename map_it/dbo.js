@@ -14,7 +14,7 @@ let dbo = function() {
   /**
    * @property {object[]} libraries - The array of all library objects.
    */
-  this.libraries = json['libraries'];
+  this.libraries = json.libraries;
 
   return this;
 };
@@ -31,7 +31,7 @@ dbo.prototype.findLibraryByCode = function(library_code) {
 
   for (let i in this.libraries) {
     let library = this.libraries[i];
-    if (library['id'] == library_code) return library;
+    if (library.id == library_code) return library;
   }
 
   return null;
@@ -54,7 +54,7 @@ dbo.prototype.findLocationByCode = function(library_code, location_code) {
   if (library != null) {
     for (let i in library.locations) {
       let location = library.locations[i];
-      if (location['id'] == location_code) return location;
+      if (location.id == location_code) return location;
     }
   }
 
@@ -82,7 +82,7 @@ dbo.prototype.findShelfByCallNumber = function(library_code, location_code, call
     for (let i in location.shelves) {
       let shelf = location.shelves[i];
       try {
-        if (CallNumber.isInRange(call_number, shelf['range_start'], shelf['range_end'])) return shelf;
+        if (CallNumber.isInRange(call_number, shelf.range_start, shelf.range_end)) return shelf;
       } catch (err) {
         console.log(err);
         break;

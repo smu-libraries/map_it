@@ -23,9 +23,9 @@ router.get('/:library_code', (req, res, next) => {
     res.redirect('/map_it');
   } else {
     res.render('location_list', {
-      library_code: library['id'],
-      library_name: library['name'],
-      list: library['locations']
+      library_code: library.id,
+      library_name: library.name,
+      list: library.locations
     });
   }
 });
@@ -41,8 +41,8 @@ router.get('/:library_code/:location_code', (req, res, next) => {
     res.render('shelf_list', {
       library_code: req.params.library_code,
       location_code: req.params.location_code,
-      location_name: location['name'],
-      list: location['shelves']
+      location_name: location.name,
+      list: location.shelves
     });
   }
 });
