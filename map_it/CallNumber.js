@@ -10,7 +10,7 @@ class CallNumber {
    * Creates a CallNumber.
    *
    * @param {string} call_number - The call number to parse.
-   * @throws {Error} call_number is null or not a string.
+   * @throws {Error} call_number is not a string.
    * @throws {Error} call_number cannot be parsed correctly.
    */
   constructor(call_number) {
@@ -58,7 +58,7 @@ class CallNumber {
    *
    * @param {CallNumber} other - The CallNumber to compare to.
    * @returns {number} A negative integer, zero or positive integer as this CallNumber is less than, equal to or greater than other.
-   * @throws {Error} other is null or not a CallNumber.
+   * @throws {Error} other is not a CallNumber.
    */
   compareTo(other) {
     if (!other instanceof CallNumber) throw new Error('other is not a CallNumber');
@@ -105,9 +105,9 @@ class CallNumber {
    * @param {string} range_start - The call number at the start of the range.
    * @param {string} range_end - The call number at the end of the range.
    * @returns {boolean} true if call_number is in between (inclusive) range_start and range_end, false if otherwise.
-   * @throws {Error} call_number is null or not a string.
-   * @throws {Error} range_start is null or not a string.
-   * @throws {Error} range_end is null or not a string.
+   * @throws {Error} call_number is not a string.
+   * @throws {Error} range_start is not a string.
+   * @throws {Error} range_end is not a string.
    */
   static isInRange(call_number, range_start, range_end) {
     if (typeof call_number !== 'string') throw new Error('call_number is not a string');
