@@ -27,11 +27,11 @@ let dbo = function() {
  * @throws {Error} library_code is not a string.
  */
 dbo.prototype.findLibraryByCode = function(library_code) {
-  if (typeof(library_code) != 'string') throw new Error('library_code is not a string');
+  if (typeof library_code !== 'string') throw new Error('library_code is not a string');
 
   for (let i in this.libraries) {
     let library = this.libraries[i];
-    if (library.id == library_code) return library;
+    if (library.id === library_code) return library;
   }
 
   return null;
@@ -47,14 +47,14 @@ dbo.prototype.findLibraryByCode = function(library_code) {
  * @throws {Error} location_code is not a string.
  */
 dbo.prototype.findLocationByCode = function(library_code, location_code) {
-  if (typeof(library_code) != 'string') throw new Error('library_code is not a string');
-  if (typeof(location_code) != 'string') throw new Error('location_code is not a string');
+  if (typeof library_code !== 'string') throw new Error('library_code is not a string');
+  if (typeof location_code !== 'string') throw new Error('location_code is not a string');
 
   let library = this.findLibraryByCode(library_code);
-  if (library != null) {
+  if (library !== null) {
     for (let i in library.locations) {
       let location = library.locations[i];
-      if (location.id == location_code) return location;
+      if (location.id === location_code) return location;
     }
   }
 
@@ -73,12 +73,12 @@ dbo.prototype.findLocationByCode = function(library_code, location_code) {
  * @throws {Error} call_number is not a string.
  */
 dbo.prototype.findShelfByCallNumber = function(library_code, location_code, call_number) {
-  if (typeof(library_code) != 'string') throw new Error('library_code is not a string');
-  if (typeof(location_code) != 'string') throw new Error('location_code is not a string');
-  if (typeof(call_number) != 'string') throw new Error('call_number is not a string');
+  if (typeof library_code !== 'string') throw new Error('library_code is not a string');
+  if (typeof location_code !== 'string') throw new Error('location_code is not a string');
+  if (typeof call_number !== 'string') throw new Error('call_number is not a string');
 
   let location = this.findLocationByCode(library_code, location_code);
-  if (location != null) {
+  if (location !== null) {
     for (let i in location.shelves) {
       let shelf = location.shelves[i];
       try {
