@@ -55,12 +55,7 @@ router.get('/:library_code/:location_code/:call_number', (req, res, next) => {
   if (!shelf) {
     res.redirect('/map_it');
   } else {
-    res.render('map_it', {
-      library_code: req.params.library_code,
-      location_code: req.params.location_code,
-      call_number: req.params.call_number,
-      shelf: shelf
-    });
+    res.render('map_it', { shelf: shelf });
   }
 });
 
