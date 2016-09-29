@@ -61,7 +61,7 @@ class CallNumber {
    * @throws {Error} other is not a CallNumber.
    */
   compareTo(other) {
-    if (!other instanceof CallNumber) throw new Error('other is not a CallNumber');
+    if (!(other instanceof CallNumber)) throw new Error('other is not a CallNumber');
 
     if (other.class_alpha === this.class_alpha) {
       if (other.class_digit === this.class_digit) {
