@@ -2,45 +2,53 @@
   "MAIN": {
     "_id": "MAIN",
     "code": "MAIN",
+    "type": "Library",
     "name": "Li Ka Shing Library",
     "locations": {
       "3 Days L3": {
         "_id": "MAIN_3 Days L3",
         "code": "3 Days L3",
+        "type": "Location",
         "name": "3 Days Level 3",
         "shelves": []
       },
       "3 Days L4": {
         "_id": "MAIN_3 Days L4",
         "code": "3 Days L4",
+        "type": "Location",
         "name": "3 Days Level 4",
         "shelves": []
       },
       "LendingL3": {
         "_id": "MAIN_LendingL3",
         "code": "LendingL3",
+        "type": "Location",
         "name": "Books Level 3",
         "shelves": []
       },
       "LendingL4": {
         "_id": "MAIN_LendingL4",
         "code": "LendingL4",
+        "type": "Location",
         "name": "Books Level 4",
         "shelves": []
       },
       "DisplayL2": {
         "_id": "MAIN_DisplayL2",
         "code": "DisplayL2",
+        "type": "Location",
         "name": "Display Shelves Level 2",
         "shelves": []
       },
       "JournalL3": {
         "_id": "MAIN_JournalL3",
         "code": "JournalL3",
+        "type": "Location",
         "name": "Journals Level 3",
         "shelves": [
           {
             "_id": "MAIN_JournalL3_1_1",
+            "type": "shelf",
             "range_start": "B1 .D5",
             "range_end": "HD38.5 .I58",
             "map": {
@@ -50,6 +58,7 @@
           },
           {
             "_id": "MAIN_JournalL3_1_2",
+            "type": "shelf",
             "range_start": "HD38.5 .J68",
             "range_end": "HF5601 .J74",
             "map": {
@@ -59,6 +68,7 @@
           },
           {
             "_id": "MAIN_JournalL3_2_1",
+            "type": "shelf",
             "range_start": "HF5601 .M39",
             "range_end": "HV40 .S25",
             "map": {
@@ -68,6 +78,7 @@
           },
           {
             "_id": "MAIN_JournalL3_2_2",
+            "type": "shelf",
             "range_start": "HX3 .N36",
             "range_end": "K9 .N7479",
             "map": {
@@ -77,6 +88,7 @@
           },
           {
             "_id": "MAIN_JournalL3_3_1",
+            "type": "shelf",
             "range_start": "K9 .N74989",
             "range_end": "K12 .L6",
             "map": {
@@ -86,6 +98,7 @@
           },
           {
             "_id": "MAIN_JournalL3_3_2",
+            "type": "shelf",
             "range_start": "K13 .A493",
             "range_end": "K4456.3 .A82",
             "map": {
@@ -95,6 +108,7 @@
           },
           {
             "_id": "MAIN_JournalL3_4_1",
+            "type": "shelf",
             "range_start": "KD135 .H3",
             "range_end": "KD276.2",
             "map": {
@@ -104,6 +118,7 @@
           },
           {
             "_id": "MAIN_JournalL3_4_2",
+            "type": "shelf",
             "range_start": "KD276.3",
             "range_end": "KD276.3",
             "map": {
@@ -113,6 +128,7 @@
           },
           {
             "_id": "MAIN_JournalL3_4_3",
+            "type": "shelf",
             "range_start": "KD277",
             "range_end": "KD277.2",
             "map": {
@@ -122,6 +138,7 @@
           },
           {
             "_id": "MAIN_JournalL3_4_4",
+            "type": "shelf",
             "range_start": "KD277.7",
             "range_end": "KD277.7",
             "map": {
@@ -131,6 +148,7 @@
           },
           {
             "_id": "MAIN_JournalL3_5_1",
+            "type": "shelf",
             "range_start": "KD277.3",
             "range_end": "KD279.4",
             "map": {
@@ -140,6 +158,7 @@
           },
           {
             "_id": "MAIN_JournalL3_5_2",
+            "type": "shelf",
             "range_start": "KD282 .W44",
             "range_end": "KD282 .W44",
             "map": {
@@ -149,6 +168,7 @@
           },
           {
             "_id": "MAIN_JournalL3_5_3",
+            "type": "shelf",
             "range_start": "KD284",
             "range_end": "KD284",
             "map": {
@@ -158,6 +178,7 @@
           },
           {
             "_id": "MAIN_JournalL3_5_4",
+            "type": "shelf",
             "range_start": "KD288 .A64",
             "range_end": "KD288 .A642",
             "map": {
@@ -167,6 +188,7 @@
           },
           {
             "_id": "MAIN_JournalL3_6_1",
+            "type": "shelf",
             "range_start": "KD296 .C83",
             "range_end": "KD1715 .A519",
             "map": {
@@ -176,6 +198,7 @@
           },
           {
             "_id": "MAIN_JournalL3_6_2",
+            "type": "shelf",
             "range_start": "KD1815 .A2",
             "range_end": "KNR2.23",
             "map": {
@@ -185,6 +208,7 @@
           },
           {
             "_id": "MAIN_JournalL3_6_3",
+            "type": "shelf",
             "range_start": "KPG19 .A2",
             "range_end": "KPG19 .A2",
             "map": {
@@ -194,6 +218,7 @@
           },
           {
             "_id": "MAIN_JournalL3_7_1",
+            "type": "shelf",
             "range_start": "KPG469.5 .S53",
             "range_end": "KPP1.9 .B988",
             "map": {
@@ -203,6 +228,7 @@
           },
           {
             "_id": "MAIN_JournalL3_7_2",
+            "type": "shelf",
             "range_start": "KPP2.23 .A2",
             "range_end": "T1 .S5",
             "map": {
@@ -215,16 +241,19 @@
       "Lvl3Temp": {
         "_id": "MAIN_Lvl3Temp",
         "code": "Lvl3Temp",
+        "type": "Location",
         "name": "Level 3 Temporary",
         "shelves": []
       },
       "Lifestyle": {
         "_id": "MAIN_Lifestyle",
         "code": "Lifestyle",
+        "type": "Location",
         "name": "Lifestyle Level 2",
         "shelves": [
           {
             "_id": "MAIN_Lifestyle_1",
+            "type": "shelf",
             "range_start": "B105 .T54",
             "range_end": "PR6066 .A6956",
             "map": {
@@ -234,6 +263,7 @@
           },
           {
             "_id": "MAIN_Lifestyle_2",
+            "type": "shelf",
             "range_start": "PR6066 .R34",
             "range_end": "PS3557 .R2864",
             "map": {
@@ -243,6 +273,7 @@
           },
           {
             "_id": "MAIN_Lifestyle_3",
+            "type": "shelf",
             "range_start": "PS3557 .R5355",
             "range_end": "Z1003 .P576",
             "map": {
@@ -255,10 +286,12 @@
       "MediaLvl2": {
         "_id": "MAIN_MediaLvl2",
         "code": "MediaLvl2",
+        "type": "Location",
         "name": "Media Level 2",
         "shelves": [
           {
             "_id": "MAIN_MediaLvl2_1",
+            "type": "shelf",
             "range_start": "BC108 .L43",
             "range_end": "PJ6308 .B37",
             "map": {
@@ -268,6 +301,7 @@
           },
           {
             "_id": "MAIN_MediaLvl2_2",
+            "type": "shelf",
             "range_start": "PJ6308 .U48",
             "range_end": "PN1997 .P465",
             "map": {
@@ -277,6 +311,7 @@
           },
           {
             "_id": "MAIN_MediaLvl2_3",
+            "type": "shelf",
             "range_start": "PN1997 .P472",
             "range_end": "Z7163 .J685",
             "map": {
@@ -289,10 +324,12 @@
       "NewsLvl2": {
         "_id": "MAIN_NewsLvl2",
         "code": "NewsLvl2",
+        "type": "Location",
         "name": "Newspapers and Magazines",
         "shelves": [
           {
             "_id": "MAIN_NewsLvl2_1",
+            "type": "shelf",
             "range_start": "AP2 .N6763",
             "range_end": "GV942 .F68",
             "map": {
@@ -302,6 +339,7 @@
           },
           {
             "_id": "MAIN_NewsLvl2_2",
+            "type": "shelf",
             "range_start": "HD62.6 .N68",
             "range_end": "HF3851 .H66",
             "map": {
@@ -311,6 +349,7 @@
           },
           {
             "_id": "MAIN_NewsLvl2_3",
+            "type": "shelf",
             "range_start": "HG3753 .T74",
             "range_end": "KPP5.5 .S56",
             "map": {
@@ -320,6 +359,7 @@
           },
           {
             "_id": "MAIN_NewsLvl2_4",
+            "type": "shelf",
             "range_start": "ML5 .W67",
             "range_end": "TK5105.5 .W57",
             "map": {
@@ -329,6 +369,7 @@
           },
           {
             "_id": "MAIN_NewsLvl2_5",
+            "type": "shelf",
             "range_start": "TT500 .N95",
             "range_end": "TX633 .B65",
             "map": {
@@ -341,10 +382,12 @@
       "CR3H": {
         "_id": "MAIN_CR3H",
         "code": "CR3H",
+        "type": "Location",
         "name": "Reserves 3 Hours",
         "shelves": [
           {
             "_id": "MAIN_CR3H_1",
+            "type": "shelf",
             "range_start": "AM5 .A43",
             "range_end": "HC465 .H53",
             "map": {
@@ -354,6 +397,7 @@
           },
           {
             "_id": "MAIN_CR3H_2",
+            "type": "shelf",
             "range_start": "HD29 .S76",
             "range_end": "HF5636 .P75",
             "map": {
@@ -363,6 +407,7 @@
           },
           {
             "_id": "MAIN_CR3H_3",
+            "type": "shelf",
             "range_start": "HF5657.4 .A38",
             "range_end": "K235 .O93",
             "map": {
@@ -372,6 +417,7 @@
           },
           {
             "_id": "MAIN_CR3H_4",
+            "type": "shelf",
             "range_start": "K237 .H3",
             "range_end": "KD1949 .W55",
             "map": {
@@ -381,6 +427,7 @@
           },
           {
             "_id": "MAIN_CR3H_5",
+            "type": "shelf",
             "range_start": "KD1949.6 .D48",
             "range_end": "KPP112 .W45",
             "map": {
@@ -390,6 +437,7 @@
           },
           {
             "_id": "MAIN_CR3H_6",
+            "type": "shelf",
             "range_start": "KPP112.2 .W45",
             "range_end": "ZA3075 .B34",
             "map": {
@@ -402,10 +450,12 @@
       "CRMedia": {
         "_id": "MAIN_CRMedia",
         "code": "CRMedia",
+        "type": "Location",
         "name": "Reserves Media",
         "shelves": [
           {
             "_id": "MAIN_CRMedia_1",
+            "type": "shelf",
             "range_start": "DS774 .C45",
             "range_end": "VK203 .P573",
             "map": {
@@ -420,42 +470,42 @@
   "KGC": {
     "_id": "KGC",
     "code": "KGC",
-    "name": "Kwa Geok Choo Law Library",
+    "type": "Library",
+    "name": "Kwa Geok Choo Library",
     "locations": {
-      "3DaysL4": {
-        "_id": "KGC_3DaysL4",
-        "code": "3DaysL4",
-        "name": "3 Days Level 4",
+      "LAW3DaysL4": {
+        "_id": "KGC_LAW3DaysL4",
+        "code": "LAW3DaysL4",
+        "type": "Location",
+        "name": "3 Days Level 4 KGC",
         "shelves": []
       },
-      "CR3": {
-        "_id": "KGC_CR3",
-        "code": "CR3",
-        "name": "Course Reserve 3 Hrs",
+      "LAWCR3H": {
+        "_id": "KGC_LAWCR3H",
+        "code": "LAWCR3H",
+        "type": "Location",
+        "name": "Law CR 3 Hours KGC",
         "shelves": []
       },
-      "LLCR": {
-        "_id": "KGC_LLCR",
-        "code": "LLCR",
-        "name": "Course Reserves at Law Library",
+      "LAWJournal": {
+        "_id": "KGC_LAWJournal",
+        "code": "LAWJournal",
+        "type": "Location",
+        "name": "Law Journals L4 KGC",
         "shelves": []
       },
-      "Journals": {
-        "_id": "KGC_Journals",
-        "code": "Journals",
-        "name": "Journals L4",
+      "LAWReport": {
+        "_id": "KGC_LAWReport",
+        "code": "LAWReport",
+        "type": "Location",
+        "name": "Law Report L4 KGC",
         "shelves": []
       },
-      "LawReport": {
-        "_id": "KGC_LawReport",
-        "code": "LawReport",
-        "name": "Law Report L4",
-        "shelves": []
-      },
-      "LendingL4": {
-        "_id": "KGC_LendingL4",
-        "code": "LendingL4",
-        "name": "Lending Level 4",
+      "LAWL4": {
+        "_id": "KGC_LAWL4",
+        "code": "LAWL4",
+        "type": "Location",
+        "name": "Lending L4 KGC",
         "shelves": []
       }
     }
