@@ -24,7 +24,408 @@
         "code": "LendingL3",
         "type": "Location",
         "name": "Books Level 3",
-        "shelves": []
+        "shelves": [
+          {
+            "_id": "MAIN_LendingL3_31_1",
+            "type": "shelf",
+            "range_start": "K2",
+            "range_end": "K487",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_31_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_31_2",
+            "type": "shelf",
+            "range_start": "K487 .A1",
+            "range_end": "K898",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_31_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_32_1",
+            "type": "shelf",
+            "range_start": "K915",
+            "range_end": "K1362",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_32_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_32_2",
+            "type": "shelf",
+            "range_start": "K1362 .A1",
+            "range_end": "K2400",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_32_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_33_1",
+            "type": "shelf",
+            "range_start": "K2400 .A1",
+            "range_end": "K3585",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_33_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_33_2",
+            "type": "shelf",
+            "range_start": "K3585 .A1",
+            "range_end": "K4573",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_33_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_34_1",
+            "type": "shelf",
+            "range_start": "K4600",
+            "range_end": "KD479",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_34_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_34_2",
+            "type": "shelf",
+            "range_start": "KD479 .A1",
+            "range_end": "KD1269",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_34_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_35_1",
+            "type": "shelf",
+            "range_start": "KD1269 .A1",
+            "range_end": "KD1554",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_35_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_35_2",
+            "type": "shelf",
+            "range_start": "KD1554 .A1",
+            "range_end": "KD1650",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_35_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_36_1",
+            "type": "shelf",
+            "range_start": "KD1650 .A1",
+            "range_end": "KD1949",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_36_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_36_2",
+            "type": "shelf",
+            "range_start": "KD1949 .A1",
+            "range_end": "KD2079",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_36_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_37_1",
+            "type": "shelf",
+            "range_start": "KD2079 .A1",
+            "range_end": "KD4210",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_37_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_37_2",
+            "type": "shelf",
+            "range_start": "KD4238",
+            "range_end": "KD8045",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_37_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_38_1",
+            "type": "shelf",
+            "range_start": "KD8045 .A1",
+            "range_end": "KF390",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_38_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_38_2",
+            "type": "shelf",
+            "range_start": "KF390 .A1",
+            "range_end": "KF3114",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_38_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_39_1",
+            "type": "shelf",
+            "range_start": "KF3114 .A1",
+            "range_end": "KJC1640",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_39_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_39_2",
+            "type": "shelf",
+            "range_start": "KJC1646",
+            "range_end": "KNC403",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_39_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_40_1",
+            "type": "shelf",
+            "range_start": "KNC428",
+            "range_end": "KNQ1256",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_40_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_40_2",
+            "type": "shelf",
+            "range_start": "KNQ1270",
+            "range_end": "KNX2020",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_40_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_41_1",
+            "type": "shelf",
+            "range_start": "KNX2101",
+            "range_end": "KPP5",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_41_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_41_2",
+            "type": "shelf",
+            "range_start": "KPP5 .A1",
+            "range_end": "KTL2064",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_41_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_42_1",
+            "type": "shelf",
+            "range_start": "KTL2070",
+            "range_end": "KUQ2095",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_42_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_42_2",
+            "type": "shelf",
+            "range_start": "KUQ2095 .A1",
+            "range_end": "LB1032",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_42_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_43_1",
+            "type": "shelf",
+            "range_start": "LB1032 .A1",
+            "range_end": "ML330",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_43_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_43_2",
+            "type": "shelf",
+            "range_start": "ML330 .A1",
+            "range_end": "NK1068",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_43_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_44_1",
+            "type": "shelf",
+            "range_start": "NK1068 .A1",
+            "range_end": "P96",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_44_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_44_2",
+            "type": "shelf",
+            "range_start": "P96 .A1",
+            "range_end": "PF3640",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_44_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_45_1",
+            "type": "shelf",
+            "range_start": "PG2947",
+            "range_end": "PN1998",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_45_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_45_2",
+            "type": "shelf",
+            "range_start": "PN1999",
+            "range_end": "PR3093",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_45_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_46_1",
+            "type": "shelf",
+            "range_start": "PR3093 .A1",
+            "range_end": "PR9619",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_46_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_46_2",
+            "type": "shelf",
+            "range_start": "PR9619 .A1",
+            "range_end": "PS3620",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_46_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_47_1",
+            "type": "shelf",
+            "range_start": "PS8576",
+            "range_end": "QA76.7",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_47_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_47_2",
+            "type": "shelf",
+            "range_start": "QA76.7 .A1",
+            "range_end": "QA76.9",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_47_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_48_1",
+            "type": "shelf",
+            "range_start": "QA76.9 .A1",
+            "range_end": "QA278",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_48_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_48_2",
+            "type": "shelf",
+            "range_start": "QA278 .A1",
+            "range_end": "QA376",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_48_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_49_1",
+            "type": "shelf",
+            "range_start": "QP86",
+            "range_end": "T57",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_49_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_49_2",
+            "type": "shelf",
+            "range_start": "T57 .A1",
+            "range_end": "TR897",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_49_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_50_1",
+            "type": "shelf",
+            "range_start": "TR897 .A1",
+            "range_end": "ZA3075",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_50_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL3_50_2",
+            "type": "shelf",
+            "range_start": "ZA3075 .A1",
+            "range_end": "ZA4482",
+            "map": {
+              "background": "main_l3.png",
+              "overlay": "main_lendingl3_50_2.png"
+            }
+          }
+        ]
       },
       "LendingL4": {
         "_id": "MAIN_LendingL4",
