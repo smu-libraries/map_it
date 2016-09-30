@@ -17,7 +17,7 @@ class CallNumber {
     if (typeof call_number !== 'string') throw new Error('call_number is not a string');
 
     call_number = call_number.replace(/\+/g, ' ').toUpperCase();  /** Alma uses '+' instead of whitespace */
-    let matches = new RegExp(/^([A-Z]+)([0-9\.]+)(\s+\.([A-Z])([0-9]+))?\b/).exec(call_number);
+    let matches = new RegExp(/^([A-Z]+)([0-9]+(\.?[0-9]+)?)(\s*\.([A-Z])([0-9]+))?\b/).exec(call_number);
     if (!matches) throw new Error('Cannot parse call_number: ' + call_number);
 
     /**
@@ -40,12 +40,12 @@ class CallNumber {
     /**
      * @property {string|null} cutter_alpha - The alphabet portion of the first Cutter.
      */
-    this.cutter_alpha = matches[4] || null;
+    this.cutter_alpha = matches[5] || null;
 
     /**
      * @property {string|null} cutter_digit - The numeric portion of the first Cutter.
      */
-    this.cutter_digit = parseFloat(matches[5]);
+    this.cutter_digit = parseFloat(matches[6]);
     if (isNaN(this.cutter_digit)) this.cutter_digit = null;
     if (this.cutter_digit === 0) throw new Error('Cannot parse call_number: ' + call_number);
 
