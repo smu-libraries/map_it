@@ -16,41 +16,46 @@ class CallNumber {
   constructor(call_number) {
     if (typeof call_number !== 'string') throw new Error('call_number is not a string');
 
-    call_number = call_number.replace(/\+/g, ' ').toUpperCase();  /** Alma uses '+' instead of whitespace */
-    let matches = new RegExp(/^([A-Z]+)([0-9]+(\.?[0-9]+)?)(\s*\.([A-Z])([0-9]+))?\b/).exec(call_number);
-    if (!matches) throw new Error('Cannot parse call_number: ' + call_number);
-
     /**
-     * @property {string} original_call_number - The original call number (in uppercase).
+     * @property {string} original_call_number - The original call number.
      */
     this.original_call_number = call_number;
+
+    call_number = call_number.replace(/\+/g, ' ').toUpperCase();  /** Alma uses '+' instead of whitespace */
+    let matches = /^(\s*)([a-z]+)(\s*)(([0-9]+)(\.([0-9]+))?)(\s?)(\.([a-z])?([0-9]+)?)?/i.exec(call_number);
+    if (!matches) throw new Error('Cannot parse call_number: ' + call_number);
 
     /**
      * @property {string} class_alpha - The alphabet portion of the LC class.
      */
-    this.class_alpha = matches[1];
+    this.class_alpha = matches[2];
     if (!this.class_alpha) throw new Error('Cannot parse call_number: ' + call_number);
 
     /**
      * @property {string} class_digit - The numeric portion of the LC class.
      */
-    this.class_digit = parseFloat(matches[2]);
+    this.class_digit = parseFloat(matches[4]);
     if (!this.class_digit) throw new Error('Cannot parse call_number: ' + call_number);
 
     /**
      * @property {string|null} cutter_alpha - The alphabet portion of the first Cutter.
      */
-    this.cutter_alpha = matches[5] || null;
+    this.cutter_alpha = matches[10] || null;
 
     /**
      * @property {string|null} cutter_digit - The numeric portion of the first Cutter.
      */
-    this.cutter_digit = parseFloat(matches[6]);
+    this.cutter_digit = parseFloat(matches[11]);
     if (isNaN(this.cutter_digit)) this.cutter_digit = null;
     if (this.cutter_digit === 0) throw new Error('Cannot parse call_number: ' + call_number);
 
     /** cutter_alpha and cutter_digit must both have values or both null */
     if ((!this.cutter_alpha && this.cutter_digit) || (this.cutter_alpha && !this.cutter_digit)) throw new Error('Cannot parse call_number: ' + call_number);
+
+    /**
+     * @property {string} parsed_call_number - The parsed call number.
+     */
+    this.parsed_call_number = this.class_alpha + this.class_digit + (this.cutter_alpha ? ' .' + this.cutter_alpha + this.cutter_digit : '');
   }
 
   /**
