@@ -71,8 +71,7 @@ dbo.prototype.findShelfByCallNumber = function(library_code, location_code, call
 
   let location = this.findLocationByCode(library_code, location_code);
   if (location) {
-    for (let i in location.shelves) {
-      let shelf = location.shelves[i];
+    for (let shelf of location.shelves) {
       try {
         if (CallNumber.isInRange(call_number, shelf.range_start, shelf.range_end)) return shelf;
       } catch (err) {
