@@ -29,6 +29,7 @@ describe('CallNumber', () => {
       let cn = new CallNumber('KD1949.6 .D48 .W283 2009');
 
       assert.strictEqual('KD1949.6 .D48 .W283 2009', cn.original_call_number);
+      assert.strictEqual('KD1949.6 .D48', cn.parsed_call_number);
       assert.strictEqual('KD', cn.class_alpha);
       assert.strictEqual(1949.6, cn.class_digit);
       assert.strictEqual('D', cn.cutter_alpha);
@@ -39,6 +40,7 @@ describe('CallNumber', () => {
       let cn = new CallNumber('KD1949.6 .D48 2009');
 
       assert.strictEqual('KD1949.6 .D48 2009', cn.original_call_number);
+      assert.strictEqual('KD1949.6 .D48', cn.parsed_call_number);
       assert.strictEqual('KD', cn.class_alpha);
       assert.strictEqual(1949.6, cn.class_digit);
       assert.strictEqual('D', cn.cutter_alpha);
@@ -49,6 +51,7 @@ describe('CallNumber', () => {
       let cn = new CallNumber('KD1949.6 .D48');
 
       assert.strictEqual('KD1949.6 .D48', cn.original_call_number);
+      assert.strictEqual('KD1949.6 .D48', cn.parsed_call_number);
       assert.strictEqual('KD', cn.class_alpha);
       assert.strictEqual(1949.6, cn.class_digit);
       assert.strictEqual('D', cn.cutter_alpha);
@@ -59,6 +62,7 @@ describe('CallNumber', () => {
       let cn = new CallNumber('KD1949.6');
 
       assert.strictEqual('KD1949.6', cn.original_call_number);
+      assert.strictEqual('KD1949.6', cn.parsed_call_number);
       assert.strictEqual('KD', cn.class_alpha);
       assert.strictEqual(1949.6, cn.class_digit);
       assert.strictEqual(null, cn.cutter_alpha);
@@ -68,7 +72,8 @@ describe('CallNumber', () => {
     it('kd1949.6 .d48 .w283 2009', () => {
       let cn = new CallNumber('kd1949.6 .d48 .w283 2009');
 
-      assert.strictEqual('KD1949.6 .D48 .W283 2009', cn.original_call_number);
+      assert.strictEqual('kd1949.6 .d48 .w283 2009', cn.original_call_number);
+      assert.strictEqual('KD1949.6 .D48', cn.parsed_call_number);
       assert.strictEqual('KD', cn.class_alpha);
       assert.strictEqual(1949.6, cn.class_digit);
       assert.strictEqual('D', cn.cutter_alpha);
@@ -78,11 +83,40 @@ describe('CallNumber', () => {
     it('kd1949.6', () => {
       let cn = new CallNumber('kd1949.6');
 
-      assert.strictEqual('KD1949.6', cn.original_call_number);
+      assert.strictEqual('kd1949.6', cn.original_call_number);
+      assert.strictEqual('KD1949.6', cn.parsed_call_number);
       assert.strictEqual('KD', cn.class_alpha);
       assert.strictEqual(1949.6, cn.class_digit);
       assert.strictEqual(null, cn.cutter_alpha);
       assert.strictEqual(null, cn.cutter_digit);
+    });
+
+    it('KD1949.6.D48 .W283 2009', () => {
+      let cn = new CallNumber('KD1949.6.D48 .W283 2009');
+
+      assert.strictEqual('KD1949.6.D48 .W283 2009', cn.original_call_number);
+      assert.strictEqual('KD1949.6 .D48', cn.parsed_call_number);
+      assert.strictEqual('KD', cn.class_alpha);
+      assert.strictEqual(1949.6, cn.class_digit);
+      assert.strictEqual('D', cn.cutter_alpha);
+      assert.strictEqual(48, cn.cutter_digit);
+    });
+
+    it('KD1949.D48 .W283 2009', () => {
+      let cn = new CallNumber('KD1949.D48 .W283 2009');
+
+      assert.strictEqual('KD1949.D48 .W283 2009', cn.original_call_number);
+      assert.strictEqual('KD1949 .D48', cn.parsed_call_number);
+      assert.strictEqual('KD', cn.class_alpha);
+      assert.strictEqual(1949, cn.class_digit);
+      assert.strictEqual('D', cn.cutter_alpha);
+      assert.strictEqual(48, cn.cutter_digit);
+    });
+
+    it('KD1949.6.48 .W283 2009', () => {
+      assert.throws(() => {
+        new CallNumber('KD1949.6.48 .W283 2009');
+      });
     });
 
     it('B1', () => {
@@ -126,15 +160,25 @@ describe('CallNumber', () => {
     });
 
     it('KD1949.6.D48', () => {
-      assert.throws(() => {
-        new CallNumber('KD1949.6.D48');
-      });
+      let cn = new CallNumber('KD1949.6.D48');
+
+      assert.strictEqual('KD1949.6.D48', cn.original_call_number);
+      assert.strictEqual('KD1949.6 .D48', cn.parsed_call_number);
+      assert.strictEqual('KD', cn.class_alpha);
+      assert.strictEqual(1949.6, cn.class_digit);
+      assert.strictEqual('D', cn.cutter_alpha);
+      assert.strictEqual(48, cn.cutter_digit);
     });
 
     it('" KD1949.6 .D48 "', () => {
-      assert.throws(() => {
-        new CallNumber(' KD1949.6.D48 ');
-      });
+      let cn = new CallNumber(' KD1949.6 .D48 ');
+
+      assert.strictEqual(' KD1949.6 .D48 ', cn.original_call_number);
+      assert.strictEqual('KD1949.6 .D48', cn.parsed_call_number);
+      assert.strictEqual('KD', cn.class_alpha);
+      assert.strictEqual(1949.6, cn.class_digit);
+      assert.strictEqual('D', cn.cutter_alpha);
+      assert.strictEqual(48, cn.cutter_digit);
     });
   });
 
