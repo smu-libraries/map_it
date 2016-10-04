@@ -21,7 +21,7 @@ class CallNumber {
      */
     this.original_call_number = call_number;
 
-    call_number = call_number.replace(/\+/g, ' ').toUpperCase();  /** Alma uses '+' instead of whitespace */
+    call_number = call_number.toUpperCase();
     let matches = /^(\s*)([a-z]+)(\s*)(([0-9]+)(\.([0-9]+))?)(\s?)(\.([a-z])?([0-9]+)?)?/i.exec(call_number);
     if (!matches) throw new Error('Cannot parse call_number: ' + call_number);
 
