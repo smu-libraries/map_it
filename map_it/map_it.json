@@ -422,7 +422,608 @@
         "code": "LendingL4",
         "type": "Location",
         "name": "Books Level 4",
-        "shelves": []
+        "shelves": [
+          {
+            "_id": "MAIN_LendingL4_1_1",
+            "type": "shelf",
+            "range_start": "AC150 .C486",
+            "range_end": "B2430 .F724",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_1_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_1_2",
+            "type": "shelf",
+            "range_start": "B2430 .K7544",
+            "range_end": "BF76.5 .G73",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_1_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_2_1",
+            "type": "shelf",
+            "range_start": "BF76.5 .H38",
+            "range_end": "BF575 .F14",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_2_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_2_2",
+            "type": "shelf",
+            "range_start": "BF575 .F2",
+            "range_end": "BL51 .R4785",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_2_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_3_1",
+            "type": "shelf",
+            "range_start": "BL51 .R5984",
+            "range_end": "CT9981 .R69",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_3_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_3_2",
+            "type": "shelf",
+            "range_start": "D5 .M55",
+            "range_end": "DS79.76 .D35",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_3_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_4_1",
+            "type": "shelf",
+            "range_start": "DS79.76 .F53",
+            "range_end": "DS575 .M66",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_4_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_4_2",
+            "type": "shelf",
+            "range_start": "DS575.5 .B87",
+            "range_end": "DS753.2 .B76",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_4_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_5_1",
+            "type": "shelf",
+            "range_start": "DS753.6 .C48",
+            "range_end": "DT38.9 .C5",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_5_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_5_2",
+            "type": "shelf",
+            "range_start": "DT62 .M7",
+            "range_end": "F868 .S25",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_5_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_6_1",
+            "type": "shelf",
+            "range_start": "F869 .L86",
+            "range_end": "GN468.7 .M67",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_6_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_6_2",
+            "type": "shelf",
+            "range_start": "GN470 .A55",
+            "range_end": "H59 .W4",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_6_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_7_1",
+            "type": "shelf",
+            "range_start": "H61 .A54",
+            "range_end": "HA32 .B285",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_7_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_7_2",
+            "type": "shelf",
+            "range_start": "HA32 .C37",
+            "range_end": "HB119 .F5",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_7_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_8_1",
+            "type": "shelf",
+            "range_start": "HB119 .G74",
+            "range_end": "HB141.5 .S56",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_8_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_8_2",
+            "type": "shelf",
+            "range_start": "HB143 .C65",
+            "range_end": "HB172 .V34",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_8_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_9_1",
+            "type": "shelf",
+            "range_start": "HB172 .V35",
+            "range_end": "HB615 .C6475",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_9_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_9_2",
+            "type": "shelf",
+            "range_start": "HB615 .C67",
+            "range_end": "HB3716 .R53",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_9_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_10_1",
+            "type": "shelf",
+            "range_start": "HB3717 .B365",
+            "range_end": "HC79 .C6",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_10_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_10_2",
+            "type": "shelf",
+            "range_start": "HC79 .E5",
+            "range_end": "HC110 .E5",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_10_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_11_1",
+            "type": "shelf",
+            "range_start": "HC110 .H53",
+            "range_end": "HC427.92 .C451455",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_11_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_11_2",
+            "type": "shelf",
+            "range_start": "HC427.92 .C4636",
+            "range_end": "HC445.8 .E36",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_11_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_12_1",
+            "type": "shelf",
+            "range_start": "HC445.8 .G619",
+            "range_end": "HD30.2 .F88",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_12_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_12_2",
+            "type": "shelf",
+            "range_start": "HD30.2 .G37",
+            "range_end": "HD30.25 .L39",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_12_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_13_1",
+            "type": "shelf",
+            "range_start": "HD30.25 .R465",
+            "range_end": "HD30.3 .G768",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_13_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_13_2",
+            "type": "shelf",
+            "range_start": "HD30.3 .H35",
+            "range_end": "HD31 .V3165",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_13_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_14_1",
+            "type": "shelf",
+            "range_start": "HD31 .V594",
+            "range_end": "HD53 .B57",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_14_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_14_2",
+            "type": "shelf",
+            "range_start": "HD53 .B646",
+            "range_end": "HD58.6 .L49",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_14_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_15_1",
+            "type": "shelf",
+            "range_start": "HD58.6 .M366",
+            "range_end": "HD58.9 .A27",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_15_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_15_2",
+            "type": "shelf",
+            "range_start": "HD58.9 .A46",
+            "range_end": "HD62.4 .I5544",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_15_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_16_1",
+            "type": "shelf",
+            "range_start": "HD62.4 .I58",
+            "range_end": "HD69 .P6",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_16_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_16_2",
+            "type": "shelf",
+            "range_start": "HD69 .P75",
+            "range_end": "HD1375 .H83",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_16_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_17_1",
+            "type": "shelf",
+            "range_start": "HD1375 .M37",
+            "range_end": "HD2769.2 .U6",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_17_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_17_2",
+            "type": "shelf",
+            "range_start": "HD2785 .B544",
+            "range_end": "HD6524 .B85",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_17_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_18_1",
+            "type": "shelf",
+            "range_start": "HD6664 .B598",
+            "range_end": "HD9697 .B324",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_18_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_18_2",
+            "type": "shelf",
+            "range_start": "HD9697 .S57",
+            "range_end": "HF1017 .M6",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_18_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_19_1",
+            "type": "shelf",
+            "range_start": "HF1017 .N48",
+            "range_end": "HF1418.5 .L49",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_19_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_19_2",
+            "type": "shelf",
+            "range_start": "HF1418.5 .N483",
+            "range_end": "HF5387 .P34",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_19_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_20_1",
+            "type": "shelf",
+            "range_start": "HF5387 .P35",
+            "range_end": "HF5415.15 .K86",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_20_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_20_2",
+            "type": "shelf",
+            "range_start": "HF5415.15 .L44",
+            "range_end": "HF5438.25 .W293",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_20_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_21_1",
+            "type": "shelf",
+            "range_start": "HF5438.25 .W2933",
+            "range_end": "HF5549 .Y635",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_21_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_21_2",
+            "type": "shelf",
+            "range_start": "HF5549.12 .C376",
+            "range_end": "HF5621 .S88",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_21_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_22_1",
+            "type": "shelf",
+            "range_start": "HF5625 .A223",
+            "range_end": "HF5657.4 .R433",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_22_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_22_2",
+            "type": "shelf",
+            "range_start": "HF5657.4 .R63",
+            "range_end": "HF5813 .U6",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_22_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_23_1",
+            "type": "shelf",
+            "range_start": "HF5814 .D38",
+            "range_end": "HG187 .J3",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_23_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_23_2",
+            "type": "shelf",
+            "range_start": "HG187 .K6",
+            "range_end": "HG3823 .E88",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_23_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_24_1",
+            "type": "shelf",
+            "range_start": "HG3823 .L57",
+            "range_end": "HG4028 .C4",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_24_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_24_2",
+            "type": "shelf",
+            "range_start": "HG4028 .C45",
+            "range_end": "HG4529 .S45",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_24_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_25_1",
+            "type": "shelf",
+            "range_start": "HG4529 .S554",
+            "range_end": "HG4928.5 .C435",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_25_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_25_2",
+            "type": "shelf",
+            "range_start": "HG4928.5 .S3432",
+            "range_end": "HG6024 .A3",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_25_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_26_1",
+            "type": "shelf",
+            "range_start": "HG6024 .A78",
+            "range_end": "HM251 .A35",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_26_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_26_2",
+            "type": "shelf",
+            "range_start": "HM251 .A485",
+            "range_end": "HM711 .L81913",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_26_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_27_1",
+            "type": "shelf",
+            "range_start": "HM711 .M3355",
+            "range_end": "HM1106 .B74612",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_27_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_27_2",
+            "type": "shelf",
+            "range_start": "HM1106 .C36",
+            "range_end": "HN723 .S6",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_27_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_28_1",
+            "type": "shelf",
+            "range_start": "HN723.5 .H46",
+            "range_end": "HQ1744 .J35",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_28_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_28_2",
+            "type": "shelf",
+            "range_start": "HQ1745.5 .Z75",
+            "range_end": "HV6431 .C665",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_28_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_29_1",
+            "type": "shelf",
+            "range_start": "HV6431 .D49",
+            "range_end": "JC328.2 .S87",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_29_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_29_2",
+            "type": "shelf",
+            "range_start": "JC328.3 .C474",
+            "range_end": "JK1118 .B43",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_29_2.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_30_1",
+            "type": "shelf",
+            "range_start": "JK1341 .C875",
+            "range_end": "JS8500 .G68",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_30_1.png"
+            }
+          },
+          {
+            "_id": "MAIN_LendingL4_30_2",
+            "type": "shelf",
+            "range_start": "JV22 .C65",
+            "range_end": "JZ6405 .W66",
+            "map": {
+              "background": "main_l4.png",
+              "overlay": "main_lendingl4_30_2.png"
+            }
+          }
+        ]
       },
       "DisplayL2": {
         "_id": "MAIN_DisplayL2",
