@@ -5,6 +5,22 @@
     "type": "Library",
     "name": "Li Ka Shing Library",
     "locations": {
+      "3 Days L3": {
+        "_id": "MAIN_3 Days L3",
+        "code": "3 Days L3",
+        "type": "Location",
+        "name": "3 Days Level 3",
+        "intershelve_with": "LendingL3",
+        "shelves": []
+      },
+      "3 Days L4": {
+        "_id": "MAIN_3 Days L4",
+        "code": "3 Days L4",
+        "type": "Location",
+        "name": "3 Days Level 4",
+        "intershelve_with": "LendingL4",
+        "shelves": []
+      },
       "LendingL3": {
         "_id": "MAIN_LendingL3",
         "code": "LendingL3",

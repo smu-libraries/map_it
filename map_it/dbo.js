@@ -47,7 +47,14 @@ dbo.prototype.findLocationByCode = function(library_code, location_code) {
 
   let library = this.findLibraryByCode(library_code);
   if (library) {
-    return library.locations[location_code] || null;
+    let location = library.locations[location_code] || null;
+
+    /** Pull the shelves from the intershelving location if required */
+    if (location && location.intershelve_with) {
+      location.shelves = library.locations[location.intershelve_with].shelves || [];
+    }
+
+    return location;
   } else {
     return null;
   }
