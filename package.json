@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "mocha map_it",
+    "test": "./node_modules/.bin/mocha",
     "start": "node ./index.js",
     "doc": "jsdoc map_it"
   },
@@ -14,6 +14,7 @@
     "express": "~4.14.0",
     "helmet": "^3.2.0",
     "lc_call_number_compare": "0.0.1",
+    "mocha": "^3.2.0",
     "morgan": "~1.7.0",
     "pug": "^2.0.0-beta6"
   }
