@@ -21,6 +21,13 @@
     "name": "Lifestyle"
   },
   {
+    "_id": "MAIN CRMedia",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "CRMedia",
+    "name": "Reserves Media"
+  },
+  {
     "_id": "KGC DisplayL3",
     "doctype": "location",
     "parent": "KGC",
