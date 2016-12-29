@@ -12,15 +12,15 @@ The default setup (as described below) runs on a Windows server running IIS.
 2. Install [iisnode](https://github.com/tjanczuk/iisnode)
 3. Checkout the source folder from GitHub
 
-```
-$ git checkout https://github.com/smu-libraries/map_it
-```
+  ```
+  $ git checkout https://github.com/smu-libraries/map_it
+  ```
 
 4. Install the dependencies using NPM
 
-```
-$ npm install
-```
+  ```
+  $ npm install
+  ```
 
 5. Set up the datastore and maps (see [Updating the data](#updating-the-data))
 6. Configure IIS to serve the source folder as a virtual directory
