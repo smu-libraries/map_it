@@ -13,7 +13,7 @@ The default setup (as described below) runs on a Windows server running IIS.
 3. Checkout the source folder from GitHub
 
   ```
-  $ git checkout https://github.com/smu-libraries/map_it
+  $ git checkout https://github.com/smu-libraries/map_it.git
   ```
 
 4. Install the dependencies using NPM
