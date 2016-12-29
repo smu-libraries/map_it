@@ -9,7 +9,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 let helmet = require('helmet');
 
-let v1 = require('./lib/routes');
+let v1 = require('./lib/router');
 v1.use_datastore(path.join(__dirname, 'data', 'datastore.json'));
 
 var app = express();
