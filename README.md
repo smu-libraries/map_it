@@ -22,7 +22,7 @@ $ git checkout https://github.com/smu-libraries/map_it
 $ npm install
 ```
 
-5. Set up the datastore and maps (see [Updating the data](#Updating-the-data))
+5. Set up the datastore and maps (see [Updating the data](#updating-the-data))
 6. Configure IIS to serve the source folder as a virtual directory
 
 ## Loading a location map
