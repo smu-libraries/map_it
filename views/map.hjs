@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Item location for {{ call_number }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    Call number {{ call_number }} fits into:
+    <ul>
+    {{# docs }}
+      <li>{{ code }} (range from {{ start }} to {{ end }})
+    {{/ docs }}
+    </ul>
+  </body>
+</html>

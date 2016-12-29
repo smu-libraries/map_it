@@ -1,7 +1,0 @@
-extends layout
-
-block content
-  h1= library_name
-  each location in list
-    p
-      a(href=`/map_it/${library_code}/${location.code}`) #{location.name}
