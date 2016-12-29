@@ -2,14 +2,13 @@
 <html>
   <head>
     <title>Item location for {{ call_number }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
   </head>
   <body>
-    Call number {{ call_number }} fits into:
-    <ul>
-    {{# docs }}
-      <li>{{ code }} (range from {{ start }} to {{ end }})
-    {{/ docs }}
-    </ul>
+    <div style="width: 100vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      {{# docs }}
+        <img {{# map_background }}style="background: url(/map_it/public/images/{{ map_background }});"{{/ map_background }} src="/map_it/public/images/{{ map_overlay }}" />
+      {{/ docs }}
+    </div>
   </body>
 </html>

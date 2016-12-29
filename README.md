@@ -22,7 +22,7 @@ $ git checkout https://github.com/smu-libraries/map_it
 $ npm install
 ```
 
-5. Set up the datastore and maps (see Updating the data section below)
+5. Set up the datastore and maps (see [Updating the data](#Updating-the-data))
 6. Configure IIS to serve the source folder as a virtual directory
 
 ## Loading a location map
@@ -72,22 +72,30 @@ A call number range is a virtual representation of the unit that will be display
 |name|string|The name of the call number range.
 |start|string|The starting call number. Must be less than or equal to the ending call number.
 |end|string|The ending call number. Must be greater than or equal to the starting call number.
-|map|object|The map that shows this call number range.
+|map_overlay|string|The overlay image that shows this call number range.
+|map_base|string|The base image that shows this call number range.
 
 Call number range codes and names are not defined in Alma, and can be assigned as you like.
 
 The call numbers must be in a supported LC format that can be handled by [lc_call_number_compare](https://github.com/smu-libraries/lc_call_number_compare).
+
+The map overlay is the main image that is shown to the user. If you wish to apply the overlay over a base background image (e.g. if you have a single floorplan image for the library and you want to place over that a partially transparent PNG image pointing to the item location) then both the map base and overlay images must be specified. Take note that both map base and overlay must have the same size in pixels.
 
 ### Notes
 
 1. All the `_id` values must be unique across the entire database.
 2. All the `code` values must be unique among sibling nodes i.e. location codes must be unique within a library, range codes must be unique within a particular location.
 
+### Image files (maps)
+
+In general, all images should be placed in the `public/images` folder.
+
 ## Creating Ex Libris Alma integration profile
 
 See the [Knowledge Article](http://knowledge.exlibrisgroup.com/Alma/Knowledge_Articles/How_to_configure_Alma_to_display_a_map_to_a_physical_item_in_Primo) at the Ex Libris Knowledge Center.
 
-For the URL template in the integration profile, use: <i>&lt;service_address&gt;</i>/libraries/{library_code}/locations/{location_code}/search/{call_number}?view=map
+When you are creating the integration profile, under Actions,
+use the URL template: <i>&lt;service_address&gt;</i>/libraries/{library_code}/locations/{location_code}/search/{call_number}?view=map
 
 For example, if your service is running at <b>https://acme.com/map_it</b>, then your URL template value should be <b>https://acme.com/map_it/libraries/{library_code}/locations/{location_code}/search/{call_number}?view=map</b>
 

@@ -40,7 +40,9 @@
     "parent": "MAIN Lifestyle",
     "code": "Lifestyle1",
     "start": "B105 .T54",
-    "end": "PR6066 .A6956"
+    "end": "PR6066 .A6956",
+    "map_overlay": "main_lifestyle_1.png",
+    "map_background": "main_l2.png"
   },
   {
     "_id": "MAIN Lifestyle2",
@@ -48,7 +50,9 @@
     "parent": "MAIN Lifestyle",
     "code": "Lifestyle2",
     "start": "PR6066 .R34",
-    "end": "PS3557 .R2864"
+    "end": "PS3557 .R2864",
+    "map_overlay": "main_lifestyle_2.png",
+    "map_background": "main_l2.png"
   },
   {
     "_id": "MAIN Lifestyle3",
@@ -56,6 +60,8 @@
     "parent": "MAIN Lifestyle",
     "code": "Lifestyle3",
     "start": "PS3557 .R5355",
-    "end": "Z1003 .P576"
+    "end": "Z1003 .P576",
+    "map_overlay": "main_lifestyle_3.png",
+    "map_background": "main_l2.png"
   }
 ]
