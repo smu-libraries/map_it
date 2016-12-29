@@ -27,9 +27,9 @@ $ npm install
 
 ## Loading a location map
 
-You can retrieve the location map for an item by loading *<service_address>*/v1/libraries/*<library_code>*/locations/*<location_code>*/search/*<call_number>*?view=map in a web browser.
+You can retrieve the location map for an item by loading <i>&lt;service_address&gt;</i>/v1/libraries/<i>&lt;library_code&gt;</i>/locations/<i>&lt;location_code&gt;</i>/search/<i>&lt;call_number&gt;</i>?view=map in a web browser.
 
-For example, if your service is running at **https://acme.com/map_it** and you wish to retrieve the item with the call number **O123.123 .O123 O123 1234** from the location **RESERVES** inside the library **MAIN_LIB**, you can go the URL **https://acme.com/map_it/v1/libraries/MAIN_LIB/locations/RESERVES/search/O123.123 .O123 O123 1234?view=map**
+For example, if your service is running at <b>https://acme.com/map_it</b> and you wish to retrieve the item with the call number <b>O123.123 .O123 O123 1234</b> from the location <b>RESERVES</b> inside the library <b>MAIN_LIB</b>, you can go the URL <b>https://acme.com/map_it/v1/libraries/MAIN_LIB/locations/RESERVES/search/O123.123 .O123 O123 1234?view=map</b>
 
 ## Updating the data
 
@@ -87,9 +87,9 @@ The call numbers must be in a supported LC format that can be handled by [lc_cal
 
 See the [Knowledge Article](http://knowledge.exlibrisgroup.com/Alma/Knowledge_Articles/How_to_configure_Alma_to_display_a_map_to_a_physical_item_in_Primo) at the Ex Libris Knowledge Center.
 
-For the URL template in the integration profile, use: *<service_address>*/libraries/{library_code}/locations/{location_code}/search/{call_number}?view=map
+For the URL template in the integration profile, use: <i>&lt;service_address&gt;</i>/libraries/{library_code}/locations/{location_code}/search/{call_number}?view=map
 
-For example, if your service is running at **https://acme.com/map_it**, then your URL template value should be **https://acme.com/map_it/libraries/{library_code}/locations/{location_code}/search/{call_number}?view=map**
+For example, if your service is running at <b>https://acme.com/map_it</b>, then your URL template value should be <b>https://acme.com/map_it/libraries/{library_code}/locations/{location_code}/search/{call_number}?view=map</b>
 
 # License
 
