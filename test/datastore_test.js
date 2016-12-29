@@ -1,7 +1,7 @@
 let assert = require('assert');
 let path = require('path');
 let datastore = require('../lib/datastore');
-datastore.init_sync(path.join(__dirname, 'datastore_test.json'));
+datastore.init_sync(path.join(__dirname, 'sample_datastore.json'));
 
 describe('datastore using test data', () => {
   describe('search_sync with bad filter', () => {
@@ -117,7 +117,6 @@ describe('datastore using test data', () => {
           assert(x[0].doctype === 'range');
           assert(x[0].parent === 'MAIN Lifestyle');
           assert(x[0].code === 'Lifestyle2');
-          assert(x[0].start === 'PR6066 .R34');
         });
     });
   });
@@ -131,6 +130,7 @@ describe('datastore using test data', () => {
           assert(x[0].doctype === 'range');
           assert(x[0].parent === 'MAIN Lifestyle');
           assert(x[0].start === 'B105 .T54');
+          assert(x[0].end === 'PR6066 .A6956');
         });
     });
   });

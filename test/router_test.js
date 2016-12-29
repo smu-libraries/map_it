@@ -1,7 +1,7 @@
 let assert = require('assert');
 let path = require('path');
 let router = require('../lib/router');
-router.use_datastore(path.join(__dirname, 'datastore_test.json'));
+router.use_datastore(path.join(__dirname, 'sample_datastore.json'));
 
 let _view_template = '';
 let _view_data = {};
