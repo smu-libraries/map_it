@@ -10,7 +10,7 @@ The default setup (as described below) runs on a Windows server running IIS.
 
 1. Install [Node.js](https://nodejs.org)
 2. Install [iisnode](https://github.com/tjanczuk/iisnode)
-3. Checkout the source folder from GitHub
+3. Checkout the source (map_it) folder from GitHub
 
   ```
   $ git checkout https://github.com/smu-libraries/map_it.git
@@ -23,7 +23,7 @@ The default setup (as described below) runs on a Windows server running IIS.
   ```
 
 5. Set up the datastore and maps (see [Updating the data](#updating-the-data))
-6. Configure IIS to serve the source folder as a virtual directory
+6. Configure IIS to serve the map_it folder as a virtual directory
 
 ## Loading a location map
 
@@ -41,11 +41,11 @@ A library object represents a library in Alma. One library can contain many phys
 
 |Key|Type|Description
 |---|---|---
-|_id|string|The unique ID of this document.
+|_id|string|The unique ID of this document. Use the library code in Alma.
 |doctype|string|Must be 'library'.
 |parent|string|Must be null.
 |code|string|The library code in Alma.
-|name|string|The library name.
+|name|string|The library name in Alma.
 
 ### Physical location
 
@@ -53,11 +53,11 @@ A physical location object represents a physical location in Alma. Each physical
 
 |Key|Type|Description
 |---|---|---
-|_id|string|The unique ID of the document.
+|_id|string|The unique ID of the document. Use the concatenation of the parent library code and the location code in Alma, separated by a single whitespace.
 |doctype|string|Must be 'location'.
 |parent|string|The ID of the library document that this physical location belongs to.
 |code|string|The location code in Alma.
-|name|string|The location name.
+|name|string|The location name in Alma.
 
 ### Call number range
 
@@ -68,27 +68,26 @@ A call number range is a virtual representation of the unit that will be display
 |_id|string|The unique ID of the document.
 |doctype|string|Must be 'range'.
 |parent|string|The ID of the physical location document that this call number range belongs to.
-|code|string|The call number range code.
+|code|string|The code of the call number range.
 |name|string|The name of the call number range.
 |start|string|The starting call number. Must be less than or equal to the ending call number.
 |end|string|The ending call number. Must be greater than or equal to the starting call number.
 |map_overlay|string|The overlay image that shows this call number range.
 |map_base|string|The base image that shows this call number range.
 
-Call number range codes and names are not defined in Alma, and can be assigned as you like.
+Call number range IDs, codes and names are not defined in Alma, and may be assigned as you like.
 
 The call numbers must be in a supported LC format that can be handled by [lc_call_number_compare](https://github.com/smu-libraries/lc_call_number_compare).
 
-The map overlay is the main image that is shown to the user. If you wish to apply the overlay over a base background image (e.g. if you have a single floorplan image for the library and you want to place over that a partially transparent PNG image pointing to the item location) then both the map base and overlay images must be specified. Take note that both map base and overlay must have the same size in pixels.
+The map overlay is the main image that is shown to the user. If you wish to apply an overlay over a base background image (e.g. if you have a single floorplan image for the library and you want to place on top of that a partially transparent PNG pointing to the item location) then both the map base and overlay images must be specified. Take note that both the map base and overlay must be the same size in pixels.
+
+All image files should be placed in the `public/images` folder.
 
 ### Notes
 
 1. All the `_id` values must be unique across the entire database.
 2. All the `code` values must be unique among sibling nodes i.e. location codes must be unique within a library, range codes must be unique within a particular location.
-
-### Image files (maps)
-
-In general, all images should be placed in the `public/images` folder.
+3. All keys and values should be treated as case-sensitive.
 
 ## Creating Ex Libris Alma integration profile
 
