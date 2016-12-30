@@ -2,12 +2,13 @@
 <html>
   <head>
     <title>Item location for {{ call_number }}</title>
+    <link rel="stylesheet" href="/map_it/public/stylesheets/style.css">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
   </head>
   <body>
-    <div style="width: 100vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div id="map_container">
       {{# docs }}
-        <img {{# map_background }}style="background: url(/map_it/public/images/{{ map_background }});"{{/ map_background }} src="/map_it/public/images/{{ map_overlay }}" />
+        <img class="map" {{# map_background }}style="background: url(/map_it/public/images/{{ map_background }});"{{/ map_background }} src="/map_it/public/images/{{ map_overlay }}" />
       {{/ docs }}
     </div>
   </body>
