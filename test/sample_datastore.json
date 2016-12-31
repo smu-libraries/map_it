@@ -18,7 +18,7 @@
     "doctype": "location",
     "parent": "MAIN",
     "code": "Lifestyle",
-    "name": "Lifestyle"
+    "name": "Lifestyle Level 2"
   },
   {
     "_id": "MAIN CRMedia",
@@ -35,7 +35,7 @@
     "name": "Display Shelves Level 3"
   },
   {
-    "_id": "MAIN Lifestyle1",
+    "_id": "MAIN Lifestyle Lifestyle1",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
     "code": "Lifestyle1",
@@ -45,7 +45,7 @@
     "map_background": "main_l2.png"
   },
   {
-    "_id": "MAIN Lifestyle2",
+    "_id": "MAIN Lifestyle Lifestyle2",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
     "code": "Lifestyle2",
@@ -55,7 +55,7 @@
     "map_background": "main_l2.png"
   },
   {
-    "_id": "MAIN Lifestyle3",
+    "_id": "MAIN Lifestyle Lifestyle3",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
     "code": "Lifestyle3",

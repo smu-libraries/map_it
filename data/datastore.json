@@ -14,11 +14,74 @@
     "name": "Kwa Geok Choo Law Library"
   },
   {
+    "_id": "MAIN 3 Days L3",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "3 Days L3",
+    "name": "3 Days Level 3"
+  },
+  {
+    "_id": "MAIN 3 Days L4",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "3 Days L4",
+    "name": "3 Days Level 4"
+  },
+  {
+    "_id": "MAIN LendingL3",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "LendingL3",
+    "name": "Books Level 3"
+  },
+  {
+    "_id": "MAIN LendingL4",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "LendingL4",
+    "name": "Books Level 4"
+  },
+  {
+    "_id": "MAIN DisplayL2",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "DisplayL2",
+    "name": "Display Shelves Level 2"
+  },
+  {
+    "_id": "MAIN JournalL3",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "JournalL3",
+    "name": "Journals Level 3"
+  },
+  {
     "_id": "MAIN Lifestyle",
     "doctype": "location",
     "parent": "MAIN",
     "code": "Lifestyle",
-    "name": "Lifestyle"
+    "name": "Lifestyle Level 2"
+  },
+  {
+    "_id": "MAIN MediaLvl2",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "MediaLvl2",
+    "name": "Media Level 2"
+  },
+  {
+    "_id": "MAIN NewsLvl2",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "NewsLvl2",
+    "name": "Newspapers and Magazines"
+  },
+  {
+    "_id": "MAIN CR3H",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "CR3H",
+    "name": "Reserves 3 Hours"
   },
   {
     "_id": "MAIN CRMedia",
@@ -28,6 +91,20 @@
     "name": "Reserves Media"
   },
   {
+    "_id": "KGC 3DaysL4",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "3DaysL4",
+    "name": "3 Days Level 4"
+  },
+  {
+    "_id": "KGC LendingL4",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "LendingL4",
+    "name": "Books Level 4"
+  },
+  {
     "_id": "KGC DisplayL3",
     "doctype": "location",
     "parent": "KGC",
@@ -35,7 +112,35 @@
     "name": "Display Shelves Level 3"
   },
   {
-    "_id": "MAIN Lifestyle1",
+    "_id": "KGC JournalsL4",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "JournalsL4",
+    "name": "Journals Level 4"
+  },
+  {
+    "_id": "KGC ReportL4",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "ReportL4",
+    "name": "Law Report Level 4"
+  },
+  {
+    "_id": "KGC NewsL3",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "NewsL3",
+    "name": "Newspapers"
+  },
+  {
+    "_id": "KGC CR3H",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "CR3H",
+    "name": "Reserves 3 Hours"
+  },
+  {
+    "_id": "MAIN Lifestyle Lifestyle1",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
     "code": "Lifestyle1",
@@ -45,7 +150,7 @@
     "map_background": "main_l2.png"
   },
   {
-    "_id": "MAIN Lifestyle2",
+    "_id": "MAIN Lifestyle Lifestyle2",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
     "code": "Lifestyle2",
@@ -55,7 +160,7 @@
     "map_background": "main_l2.png"
   },
   {
-    "_id": "MAIN Lifestyle3",
+    "_id": "MAIN Lifestyle Lifestyle3",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
     "code": "Lifestyle3",
