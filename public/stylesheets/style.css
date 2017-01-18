@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 div#map_container {
   width: 100vw;
   height: 100vh;
@@ -5,4 +9,9 @@ div#map_container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+img.map {
+  max-width: 90vh;
+  max-height: 90vh;
 }
