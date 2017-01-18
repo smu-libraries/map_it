@@ -168,5 +168,68 @@
     "end": "Z1003 .P576",
     "map_overlay": "main_lifestyle_3.png",
     "map_background": "main_l2.png"
+  },
+  {
+    "_id": "KGC CR3H CR1",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR1",
+    "start": "HM216 .E84 2016",
+    "end": "K7625 .B735 2008",
+    "map_overlay": "kgc_cr1.png"
+  },
+  {
+    "_id": "KGC CR3H CR2-A",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR2-A",
+    "start": "KBP144 .K36 2003",
+    "end": "KD1735 .E56 2011",
+    "map_overlay": "kgc_cr2_a.png"
+  },
+  {
+    "_id": "KGC CR3H CR2-B",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR2-B",
+    "start": "KD1777 .I58 C53 2013",
+    "end": "KE5194 .B85 2016",
+    "map_overlay": "kgc_cr2_b.png"
+  },
+  {
+    "_id": "KGC CR3H CR3-A",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR3-A",
+    "start": "KF240 .R636 1998",
+    "end": "KNS3542 .A31872 R38 2014",
+    "map_overlay": "kgc_cr3_a.png"
+  },
+  {
+    "_id": "KGC CR3H CR3-B",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR3-B",
+    "start": "KNS4604.31973 .R37 2011",
+    "end": "KPP97.9 .K64 2009",
+    "map_overlay": "kgc_cr3_b.png"
+  },
+  {
+    "_id": "KGC CR3H CR4",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR4",
+    "start": "KPP97.9 .P95 2011",
+    "end": "KPP460 .C75 2012",
+    "map_overlay": "kgc_cr4.png"
+  },
+  {
+    "_id": "KGC CR3H CR5-A",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR5-A",
+    "start": "KPP472 .L56 2014",
+    "end": "KZA1145 .S55 2013",
+    "map_overlay": "kgc_cr5_a.png"
   }
 ]
