@@ -140,34 +140,31 @@
     "name": "Reserves 3 Hours"
   },
   {
-    "_id": "MAIN Lifestyle L1-A",
+    "_id": "MAIN Lifestyle L-A",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
-    "code": "L1-A",
+    "code": "L-A",
     "start": "B105 .T54",
     "end": "PR6066 .A6956",
-    "map_overlay": "main_lifestyle_1.png",
-    "map_background": "main_l2.png"
+    "map_overlay": "main_l_a.png"
   },
   {
-    "_id": "MAIN Lifestyle L1-B",
+    "_id": "MAIN Lifestyle L-B",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
-    "code": "L1-B",
+    "code": "L-B",
     "start": "PR6066 .R34",
     "end": "PS3557 .R2864",
-    "map_overlay": "main_lifestyle_2.png",
-    "map_background": "main_l2.png"
+    "map_overlay": "main_l_b.png"
   },
   {
-    "_id": "MAIN Lifestyle L1-C",
+    "_id": "MAIN Lifestyle L-C",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
-    "code": "L1-C",
+    "code": "L-C",
     "start": "PS3557 .R5355",
     "end": "Z1003 .P576",
-    "map_overlay": "main_lifestyle_3.png",
-    "map_background": "main_l2.png"
+    "map_overlay": "main_l_c.png"
   },
   {
     "_id": "KGC CR3H CR1",
