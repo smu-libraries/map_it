@@ -72,14 +72,14 @@ A call number range is a virtual representation of the unit that will be display
 |name|string|The name of the call number range.
 |start|string|The starting call number. Must be less than or equal to the ending call number.
 |end|string|The ending call number. Must be greater than or equal to the starting call number.
-|map_overlay|string|The overlay image that shows this call number range.
-|map_base|string|The base image that shows this call number range.
+|map_image|string|The image file that shows this call number range.
+|map_background|string|The background image that shows this call number range, or null, if not applicable.
 
 Call number range IDs, codes and names are not defined in Alma, and may be assigned as you like.
 
 The call numbers must be in a supported LC format that can be handled by [lc_call_number_compare](https://github.com/smu-libraries/lc_call_number_compare).
 
-The map overlay is the main image that is shown to the user. If you wish to apply an overlay over a base background image (e.g. if you have a single floorplan image for the library and you want to place on top of that a partially transparent PNG pointing to the item location) then both the map base and overlay images must be specified. Take note that both the map base and overlay must be the same size in pixels.
+`map_image` is the main image that is shown to the user. Optionally, you can superimpose `map_image` on top of a separate background image by specifying both `map_image` and `map_background`. Take note that both the images must be at the same size in pixels. If you are not using a background image, simply set `map_background` to `null`.
 
 All image files should be placed in the `public/images` folder.
 

@@ -8,7 +8,7 @@
   <body>
     <div id="map_container">
       {{# docs }}
-        <img class="map" {{# map_background }}style="background: url(/map_it/public/images/{{ map_background }});"{{/ map_background }} src="/map_it/public/images/{{ map_overlay }}" />
+        <img class="map" {{# map_background }}style="background: url(/map_it/public/images/{{ map_background }});"{{/ map_background }} src="/map_it/public/images/{{ map_image }}" />
       {{/ docs }}
     </div>
   </body>
