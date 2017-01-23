@@ -140,30 +140,30 @@
     "name": "Reserves 3 Hours"
   },
   {
-    "_id": "MAIN Lifestyle Lifestyle1",
+    "_id": "MAIN Lifestyle L1-A",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
-    "code": "Lifestyle1",
+    "code": "L1-A",
     "start": "B105 .T54",
     "end": "PR6066 .A6956",
     "map_overlay": "main_lifestyle_1.png",
     "map_background": "main_l2.png"
   },
   {
-    "_id": "MAIN Lifestyle Lifestyle2",
+    "_id": "MAIN Lifestyle L1-B",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
-    "code": "Lifestyle2",
+    "code": "L1-B",
     "start": "PR6066 .R34",
     "end": "PS3557 .R2864",
     "map_overlay": "main_lifestyle_2.png",
     "map_background": "main_l2.png"
   },
   {
-    "_id": "MAIN Lifestyle Lifestyle3",
+    "_id": "MAIN Lifestyle L1-C",
     "doctype": "range",
     "parent": "MAIN Lifestyle",
-    "code": "Lifestyle3",
+    "code": "L1-C",
     "start": "PS3557 .R5355",
     "end": "Z1003 .P576",
     "map_overlay": "main_lifestyle_3.png",
@@ -231,5 +231,365 @@
     "start": "KPP472 .L56 2014",
     "end": "KZA1145 .S55 2013",
     "map_overlay": "kgc_cr5_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B1-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B1-A",
+    "start": "K1 .I6",
+    "end": "K583 .C66 2016",
+    "map_overlay": "kgc_b1_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B1-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B1-B",
+    "start": "K583 .G55 2001",
+    "end": "K1188 .A7 A77 1985",
+    "map_overlay": "kgc_b1_b.png"
+  },
+  {
+    "_id": "KGC LendingL4 B2-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B2-A",
+    "start": "K1188 .A7 B47 2011",
+    "end": "K1705 .R44 2008",
+    "map_overlay": "kgc_b2_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B2-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B2-B",
+    "start": "K1705 .R44 2010",
+    "end": "K3255 .W33 1995",
+    "map_overlay": "kgc_b2_b.png"
+  },
+  {
+    "_id": "KGC LendingL4 B3-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B3-A",
+    "start": "K3256 .B88 2015",
+    "end": "K4444 .I573 2012",
+    "map_overlay": "kgc_b3_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B3-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B3-B",
+    "start": "K4450 .O43 2009",
+    "end": "KD640 .A95 1991",
+    "map_overlay": "kgc_b3_b.png"
+  },
+  {
+    "_id": "KGC LendingL4 B4-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B4-A",
+    "start": "KD640 .C68 1994",
+    "end": "KD1480 .L49 2015",
+    "map_overlay": "kgc_b4_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B4-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B4-B",
+    "start": "KD1480 .P37 2003",
+    "end": "KD1752 .A5 2015",
+    "map_overlay": "kgc_b4_b.png"
+  },
+  {
+    "_id": "KGC LendingL4 B5-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B5-A",
+    "start": "KD1752 .O36 2003",
+    "end": "KD2079 .B87 2006",
+    "map_overlay": "kgc_b5_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B5-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B5-B",
+    "start": "KD2079 .C48 1997",
+    "end": "KD3989 .P37 2008",
+    "map_overlay": "kgc_b5_b.png"
+  },
+  {
+    "_id": "KGC LendingL4 B6-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B6-A",
+    "start": "KD3989 .P37 2010",
+    "end": "KD8371 .M87 2013",
+    "map_overlay": "kgc_b6_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B6-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B6-B",
+    "start": "KD8371 .R43 2015",
+    "end": "KF1477 .A7 G55 1995",
+    "map_overlay": "kgc_b6_b.png"
+  },
+  {
+    "_id": "KGC LendingL4 B7-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B7-A",
+    "start": "KF1477 .B79 2008",
+    "end": "KF4772 .B35 1992",
+    "map_overlay": "kgc_b7_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B7-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B7-B",
+    "start": "KF4783 .N66 2011",
+    "end": "KJC5144 .G39 J64 2013",
+    "map_overlay": "kgc_b7_b.png"
+  },
+  {
+    "_id": "KGC LendingL4 B8-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B8-A",
+    "start": "KJC5144 .M56 C34 2015",
+    "end": "KNQ62 .C56 2006",
+    "map_overlay": "kgc_b8_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B8-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B8-B",
+    "start": "KNQ62 .I58 2000",
+    "end": "KPG885 .M64 2015",
+    "map_overlay": "kgc_b8_b.png"
+  },
+  {
+    "_id": "KGC LendingL4 B9-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B9-A",
+    "start": "KPG885 .N55 2010",
+    "end": "KPP60 .A36 1993",
+    "map_overlay": "kgc_b9_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B9-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B9-B",
+    "start": "KPP66 .K48 1996",
+    "end": "KPT2070 .H37 2011",
+    "map_overlay": "kgc_b9_b.png"
+  },
+  {
+    "_id": "KGC LendingL4 B10-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B10-A",
+    "start": "KPV68 .I58 2016",
+    "end": "KZ1301 .K66 2016",
+    "map_overlay": "kgc_b10_a.png"
+  },
+  {
+    "_id": "KGC LendingL4 B10-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B10-B",
+    "start": "KZ1301 .R47 2014",
+    "end": "KZA1146 .U6 R63 2012",
+    "map_overlay": "kgc_b10_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B1-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B1-A",
+    "start": "K1 .I6",
+    "end": "K583 .C66 2016",
+    "map_overlay": "kgc_b1_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B1-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B1-B",
+    "start": "K583 .G55 2001",
+    "end": "K1188 .A7 A77 1985",
+    "map_overlay": "kgc_b1_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B2-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B2-A",
+    "start": "K1188 .A7 B47 2011",
+    "end": "K1705 .R44 2008",
+    "map_overlay": "kgc_b2_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B2-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B2-B",
+    "start": "K1705 .R44 2010",
+    "end": "K3255 .W33 1995",
+    "map_overlay": "kgc_b2_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B3-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B3-A",
+    "start": "K3256 .B88 2015",
+    "end": "K4444 .I573 2012",
+    "map_overlay": "kgc_b3_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B3-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B3-B",
+    "start": "K4450 .O43 2009",
+    "end": "KD640 .A95 1991",
+    "map_overlay": "kgc_b3_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B4-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B4-A",
+    "start": "KD640 .C68 1994",
+    "end": "KD1480 .L49 2015",
+    "map_overlay": "kgc_b4_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B4-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B4-B",
+    "start": "KD1480 .P37 2003",
+    "end": "KD1752 .A5 2015",
+    "map_overlay": "kgc_b4_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B5-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B5-A",
+    "start": "KD1752 .O36 2003",
+    "end": "KD2079 .B87 2006",
+    "map_overlay": "kgc_b5_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B5-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B5-B",
+    "start": "KD2079 .C48 1997",
+    "end": "KD3989 .P37 2008",
+    "map_overlay": "kgc_b5_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B6-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B6-A",
+    "start": "KD3989 .P37 2010",
+    "end": "KD8371 .M87 2013",
+    "map_overlay": "kgc_b6_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B6-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B6-B",
+    "start": "KD8371 .R43 2015",
+    "end": "KF1477 .A7 G55 1995",
+    "map_overlay": "kgc_b6_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B7-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B7-A",
+    "start": "KF1477 .B79 2008",
+    "end": "KF4772 .B35 1992",
+    "map_overlay": "kgc_b7_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B7-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B7-B",
+    "start": "KF4783 .N66 2011",
+    "end": "KJC5144 .G39 J64 2013",
+    "map_overlay": "kgc_b7_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B8-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B8-A",
+    "start": "KJC5144 .M56 C34 2015",
+    "end": "KNQ62 .C56 2006",
+    "map_overlay": "kgc_b8_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B8-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B8-B",
+    "start": "KNQ62 .I58 2000",
+    "end": "KPG885 .M64 2015",
+    "map_overlay": "kgc_b8_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B9-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B9-A",
+    "start": "KPG885 .N55 2010",
+    "end": "KPP60 .A36 1993",
+    "map_overlay": "kgc_b9_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B9-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B9-B",
+    "start": "KPP66 .K48 1996",
+    "end": "KPT2070 .H37 2011",
+    "map_overlay": "kgc_b9_b.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B10-A",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B10-A",
+    "start": "KPV68 .I58 2016",
+    "end": "KZ1301 .K66 2016",
+    "map_overlay": "kgc_b10_a.png"
+  },
+  {
+    "_id": "KGC 3DaysL4 B10-B",
+    "doctype": "range",
+    "parent": "KGC 3DaysL4",
+    "code": "B10-B",
+    "start": "KZ1301 .R47 2014",
+    "end": "KZA1146 .U6 R63 2012",
+    "map_overlay": "kgc_b10_b.png"
   }
 ]
