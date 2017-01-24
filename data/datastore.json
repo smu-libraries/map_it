@@ -144,8 +144,8 @@
     "doctype": "range",
     "parent": "MAIN Lifestyle",
     "code": "L-A",
-    "start": "B105 .T54",
-    "end": "PR6066 .A6956",
+    "start": "B105 .T54 H37 2002",
+    "end": "PR6066 .A6956 T45 2012",
     "map_image": "main_l_a.png",
     "map_background": null
   },
@@ -154,8 +154,8 @@
     "doctype": "range",
     "parent": "MAIN Lifestyle",
     "code": "L-B",
-    "start": "PR6066 .R34",
-    "end": "PS3557 .R2864",
+    "start": "PR6066 .R34 L66 2013",
+    "end": "PS3557 .R5355 C35 2012",
     "map_image": "main_l_b.png",
     "map_background": null
   },
@@ -164,9 +164,109 @@
     "doctype": "range",
     "parent": "MAIN Lifestyle",
     "code": "L-C",
-    "start": "PS3557 .R5355",
-    "end": "Z1003 .P576",
+    "start": "PS3557 .R5355 G73 2014",
+    "end": "Z1003 .P576 2012",
     "map_image": "main_l_c.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN MediaLvl2 M-A",
+    "doctype": "range",
+    "parent": "MAIN MediaLvl2",
+    "code": "M-A",
+    "start": "BC108 .L43 2001",
+    "end": "PN1995.9 .F36 C473 2011",
+    "map_image": "main_m_a.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN MediaLvl2 M-B",
+    "doctype": "range",
+    "parent": "MAIN MediaLvl2",
+    "code": "M-B",
+    "start": "PN1995.9 .F36 H3771 2009",
+    "end": "Z7163 .U685 2007",
+    "map_image": "main_m_b.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN NewsLvl2 NM1-A",
+    "doctype": "range",
+    "parent": "MAIN NewsLvl2",
+    "code": "NM1-A",
+    "start": "AP2 .N6763",
+    "end": "HF1 .F37",
+    "map_image": "main_nm1_a.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN NewsLvl2 NM1-B",
+    "doctype": "range",
+    "parent": "MAIN NewsLvl2",
+    "code": "NM1-B",
+    "start": "HF1 .F75",
+    "end": "HG4502 .R58",
+    "map_image": "main_nm1_b.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN NewsLvl2 NM2",
+    "doctype": "range",
+    "parent": "MAIN NewsLvl2",
+    "code": "NM2",
+    "start": "ML5 .W67",
+    "end": "TR267 .P37",
+    "map_image": "main_nm2.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN CRMedia CRM",
+    "doctype": "range",
+    "parent": "MAIN CRMedia",
+    "code": "CRM",
+    "start": "DS774 .C45 2007",
+    "end": "VK203 .P573 2011",
+    "map_image": "main_crm.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN CR3H CR1-A",
+    "doctype": "range",
+    "parent": "MAIN CR3H",
+    "code": "CR1-A",
+    "start": "AM5 .A43 2012",
+    "end": "HC465 .H53 F78 1997",
+    "map_image": "main_cr1_a.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN CR3H CR1-B",
+    "doctype": "range",
+    "parent": "MAIN CR3H",
+    "code": "CR1-B",
+    "start": "HD29 .S76 1979",
+    "end": "HF5636 .P75 2013",
+    "map_image": "main_cr1_b.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN CR3H CR2-A",
+    "doctype": "range",
+    "parent": "MAIN CR3H",
+    "code": "CR2-A",
+    "start": "HF5657.4 .R433 2012",
+    "end": "N7260 .C53 2010",
+    "map_image": "main_cr2_a.png",
+    "map_background": null
+  },
+  {
+    "_id": "MAIN CR3H CR2-B",
+    "doctype": "range",
+    "parent": "MAIN CR3H",
+    "code": "CR2-B",
+    "start": "N7311 .B48 2015",
+    "end": "ZA3075 .B34 2011",
+    "map_image": "main_cr2_b.png",
     "map_background": null
   },
   {
