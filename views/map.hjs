@@ -4,6 +4,7 @@
     <title>Item location for {{ call_number }}</title>
     <link rel="stylesheet" href="/map_it/public/stylesheets/style.css">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+    {{> google_analytics }}
   </head>
   <body>
     <div id="map_container">
