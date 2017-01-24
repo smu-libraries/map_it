@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Item location for {{ call_number }}</title>
+    <link rel="stylesheet" href="/map_it/public/stylesheets/style.css">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  </head>
+  <body>
+    <div id="map_container">
+      {{# docs }}
+        <img class="map" {{# map_background }}style="background: url(/map_it/public/images/{{ map_background }});"{{/ map_background }} src="/map_it/public/images/{{ map_image }}" />
+      {{/ docs }}
+    </div>
+  </body>
+</html>

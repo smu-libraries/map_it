@@ -1,0 +1,67 @@
+[
+  {
+    "_id": "MAIN",
+    "doctype": "library",
+    "parent": null,
+    "code": "MAIN",
+    "name": "Li Ka Shing Library"
+  },
+  {
+    "_id": "KGC",
+    "doctype": "library",
+    "parent": null,
+    "code": "KGC",
+    "name": "Kwa Geok Choo Law Library"
+  },
+  {
+    "_id": "MAIN Lifestyle",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "Lifestyle",
+    "name": "Lifestyle Level 2"
+  },
+  {
+    "_id": "MAIN CRMedia",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "CRMedia",
+    "name": "Reserves Media"
+  },
+  {
+    "_id": "KGC DisplayL3",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "DisplayL3",
+    "name": "Display Shelves Level 3"
+  },
+  {
+    "_id": "MAIN Lifestyle Lifestyle1",
+    "doctype": "range",
+    "parent": "MAIN Lifestyle",
+    "code": "Lifestyle1",
+    "start": "B105 .T54",
+    "end": "PR6066 .A6956",
+    "map_overlay": "main_lifestyle_1.png",
+    "map_background": "main_l2.png"
+  },
+  {
+    "_id": "MAIN Lifestyle Lifestyle2",
+    "doctype": "range",
+    "parent": "MAIN Lifestyle",
+    "code": "Lifestyle2",
+    "start": "PR6066 .R34",
+    "end": "PS3557 .R2864",
+    "map_overlay": "main_lifestyle_2.png",
+    "map_background": "main_l2.png"
+  },
+  {
+    "_id": "MAIN Lifestyle Lifestyle3",
+    "doctype": "range",
+    "parent": "MAIN Lifestyle",
+    "code": "Lifestyle3",
+    "start": "PS3557 .R5355",
+    "end": "Z1003 .P576",
+    "map_overlay": "main_lifestyle_3.png",
+    "map_background": "main_l2.png"
+  }
+]
