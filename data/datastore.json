@@ -4,140 +4,279 @@
     "doctype": "library",
     "parent": null,
     "code": "MAIN",
-    "name": "Li Ka Shing Library"
+    "name": "Li Ka Shing Library",
+    "enabled": true
   },
   {
     "_id": "KGC",
     "doctype": "library",
     "parent": null,
     "code": "KGC",
-    "name": "Kwa Geok Choo Law Library"
+    "name": "Kwa Geok Choo Law Library",
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3",
     "doctype": "location",
     "parent": "MAIN",
     "code": "3 Days L3",
-    "name": "3 Days Level 3"
+    "name": "3 Days Level 3",
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L4",
     "doctype": "location",
     "parent": "MAIN",
     "code": "3 Days L4",
-    "name": "3 Days Level 4"
+    "name": "3 Days Level 4",
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3",
     "doctype": "location",
     "parent": "MAIN",
     "code": "LendingL3",
-    "name": "Books Level 3"
+    "name": "Books Level 3",
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL4",
     "doctype": "location",
     "parent": "MAIN",
     "code": "LendingL4",
-    "name": "Books Level 4"
+    "name": "Books Level 4",
+    "enabled": true
+  },
+  {
+    "_id": "MAIN ClosedLvl5",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "ClosedLvl5",
+    "name": "Closed Stacks",
+    "enabled": false
   },
   {
     "_id": "MAIN DisplayL2",
     "doctype": "location",
     "parent": "MAIN",
     "code": "DisplayL2",
-    "name": "Display Shelves Level 2"
+    "name": "Display Shelves Level 2",
+    "enabled": false
+  },
+  {
+    "_id": "MAIN Games",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "Games",
+    "name": "Games & Kits",
+    "enabled": false
   },
   {
     "_id": "MAIN JournalL3",
     "doctype": "location",
     "parent": "MAIN",
     "code": "JournalL3",
-    "name": "Journals Level 3"
+    "name": "Journals Level 3",
+    "enabled": true
+  },
+  {
+    "_id": "MAIN Equipment",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "Equipment",
+    "name": "Library Equipment",
+    "enabled": false
   },
   {
     "_id": "MAIN Lifestyle",
     "doctype": "location",
     "parent": "MAIN",
     "code": "Lifestyle",
-    "name": "Lifestyle Level 2"
+    "name": "Lifestyle Level 2",
+    "enabled": true
   },
   {
     "_id": "MAIN MediaLvl2",
     "doctype": "location",
     "parent": "MAIN",
     "code": "MediaLvl2",
-    "name": "Media Level 2"
+    "name": "Media Level 2",
+    "enabled": true
   },
   {
     "_id": "MAIN NewsLvl2",
     "doctype": "location",
     "parent": "MAIN",
     "code": "NewsLvl2",
-    "name": "Newspapers and Magazines"
+    "name": "Newspapers and Magazines",
+    "enabled": true
   },
   {
     "_id": "MAIN CR3H",
     "doctype": "location",
     "parent": "MAIN",
     "code": "CR3H",
-    "name": "Reserves 3 Hours"
+    "name": "Reserves 3 Hours",
+    "enabled": true
   },
   {
     "_id": "MAIN CRMedia",
     "doctype": "location",
     "parent": "MAIN",
     "code": "CRMedia",
-    "name": "Reserves Media"
+    "name": "Reserves Media",
+    "enabled": true
+  },
+  {
+    "_id": "MAIN Special",
+    "doctype": "location",
+    "parent": "MAIN",
+    "code": "Special",
+    "name": "Special Collection",
+    "enabled": false
   },
   {
     "_id": "KGC 3DaysL4",
     "doctype": "location",
     "parent": "KGC",
     "code": "3DaysL4",
-    "name": "3 Days Level 4"
+    "name": "3 Days Level 4",
+    "enabled": true
   },
   {
     "_id": "KGC LendingL4",
     "doctype": "location",
     "parent": "KGC",
     "code": "LendingL4",
-    "name": "Books Level 4"
+    "name": "Books Level 4",
+    "enabled": true
+  },
+  {
+    "_id": "KGC Closed",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "Closed",
+    "name": "Closed Stacks",
+    "enabled": false
+  },
+  {
+    "_id": "KGC Compactus",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "Compactus",
+    "name": "Compactus Books to be Cleaned",
+    "enabled": false
   },
   {
     "_id": "KGC DisplayL3",
     "doctype": "location",
     "parent": "KGC",
     "code": "DisplayL3",
-    "name": "Display Shelves Level 3"
+    "name": "Faculty Publications Display Shelves Level 3",
+    "enabled": false
   },
   {
     "_id": "KGC JournalsL4",
     "doctype": "location",
     "parent": "KGC",
     "code": "JournalsL4",
-    "name": "Journals Level 4"
+    "name": "Journals Level 4",
+    "enabled": true
   },
   {
     "_id": "KGC ReportL4",
     "doctype": "location",
     "parent": "KGC",
     "code": "ReportL4",
-    "name": "Law Report Level 4"
+    "name": "Law Report Level 4",
+    "enabled": true
+  },
+  {
+    "_id": "KGC Equipment",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "Equipment",
+    "name": "Library Equipment",
+    "enabled": false
   },
   {
     "_id": "KGC NewsL3",
     "doctype": "location",
     "parent": "KGC",
     "code": "NewsL3",
-    "name": "Newspapers"
+    "name": "Newspapers",
+    "enabled": false
   },
   {
     "_id": "KGC CR3H",
     "doctype": "location",
     "parent": "KGC",
     "code": "CR3H",
-    "name": "Reserves 3 Hours"
+    "name": "Reserves 3 Hours",
+    "enabled": true
+  },
+  {
+    "_id": "KGC Special",
+    "doctype": "location",
+    "parent": "KGC",
+    "code": "Special",
+    "name": "Special Collections",
+    "enabled": false
+  },
+  {
+    "_id": "MAIN 3 Days L3 ?",
+    "doctype": "range",
+    "parent": "MAIN 3 Days L3",
+    "code": "?",
+    "start": "?",
+    "end": "?",
+    "map_image": "main_?.png",
+    "map_background": null,
+    "enabled": false
+  },
+  {
+    "_id": "MAIN 3 Days L4 ?",
+    "doctype": "range",
+    "parent": "MAIN 3 Days L4",
+    "code": "?",
+    "start": "?",
+    "end": "?",
+    "map_image": "main_?.png",
+    "map_background": null,
+    "enabled": false
+  },
+  {
+    "_id": "MAIN LendingL3 ?",
+    "doctype": "range",
+    "parent": "MAIN LendingL3",
+    "code": "?",
+    "start": "?",
+    "end": "?",
+    "map_image": "main_?.png",
+    "map_background": null,
+    "enabled": false
+  },
+  {
+    "_id": "MAIN LendingL4 ?",
+    "doctype": "range",
+    "parent": "MAIN LendingL4",
+    "code": "?",
+    "start": "?",
+    "end": "?",
+    "map_image": "main_?.png",
+    "map_background": null,
+    "enabled": false
+  },
+  {
+    "_id": "MAIN JournalL3 ?",
+    "doctype": "range",
+    "parent": "MAIN JournalL3",
+    "code": "?",
+    "start": "?",
+    "end": "?",
+    "map_image": "main_?.png",
+    "map_background": null,
+    "enabled": false
   },
   {
     "_id": "MAIN Lifestyle L-A",
@@ -147,7 +286,8 @@
     "start": "B105 .T54 H37 2002",
     "end": "PR6066 .A6956 T45 2012",
     "map_image": "main_l_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN Lifestyle L-B",
@@ -157,7 +297,8 @@
     "start": "PR6066 .R34 L66 2013",
     "end": "PS3557 .R5355 C35 2012",
     "map_image": "main_l_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN Lifestyle L-C",
@@ -167,7 +308,8 @@
     "start": "PS3557 .R5355 G73 2014",
     "end": "Z1003 .P576 2012",
     "map_image": "main_l_c.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN MediaLvl2 M-A",
@@ -177,7 +319,8 @@
     "start": "BC108 .L43 2001",
     "end": "PN1995.9 .F36 C473 2011",
     "map_image": "main_m_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN MediaLvl2 M-B",
@@ -187,7 +330,8 @@
     "start": "PN1995.9 .F36 H3771 2009",
     "end": "Z7163 .U685 2007",
     "map_image": "main_m_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN NewsLvl2 NM1-A",
@@ -197,7 +341,8 @@
     "start": "AP2 .N6763",
     "end": "HF1 .F37",
     "map_image": "main_nm1_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN NewsLvl2 NM1-B",
@@ -207,7 +352,8 @@
     "start": "HF1 .F75",
     "end": "HG4502 .R58",
     "map_image": "main_nm1_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN NewsLvl2 NM2",
@@ -217,7 +363,8 @@
     "start": "ML5 .W67",
     "end": "TR267 .P37",
     "map_image": "main_nm2.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN CRMedia CRM",
@@ -227,7 +374,8 @@
     "start": "DS774 .C45 2007",
     "end": "VK203 .P573 2011",
     "map_image": "main_crm.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN CR3H CR1-A",
@@ -237,7 +385,8 @@
     "start": "AM5 .A43 2012",
     "end": "HC465 .H53 F78 1997",
     "map_image": "main_cr1_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN CR3H CR1-B",
@@ -247,7 +396,8 @@
     "start": "HD29 .S76 1979",
     "end": "HF5636 .P75 2013",
     "map_image": "main_cr1_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN CR3H CR2-A",
@@ -257,7 +407,8 @@
     "start": "HF5657.4 .R433 2012",
     "end": "N7260 .C53 2010",
     "map_image": "main_cr2_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN CR3H CR2-B",
@@ -267,277 +418,8 @@
     "start": "N7311 .B48 2015",
     "end": "ZA3075 .B34 2011",
     "map_image": "main_cr2_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC CR3H CR1",
-    "doctype": "range",
-    "parent": "KGC CR3H",
-    "code": "CR1",
-    "start": "HM216 .E84 2016",
-    "end": "K7625 .B735 2008",
-    "map_image": "kgc_cr1.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC CR3H CR2-A",
-    "doctype": "range",
-    "parent": "KGC CR3H",
-    "code": "CR2-A",
-    "start": "KBP144 .K36 2003",
-    "end": "KD1735 .E56 2011",
-    "map_image": "kgc_cr2_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC CR3H CR2-B",
-    "doctype": "range",
-    "parent": "KGC CR3H",
-    "code": "CR2-B",
-    "start": "KD1777 .I58 C53 2013",
-    "end": "KE5194 .B85 2016",
-    "map_image": "kgc_cr2_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC CR3H CR3-A",
-    "doctype": "range",
-    "parent": "KGC CR3H",
-    "code": "CR3-A",
-    "start": "KF240 .R636 1998",
-    "end": "KNS3542 .A31872 R38 2014",
-    "map_image": "kgc_cr3_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC CR3H CR3-B",
-    "doctype": "range",
-    "parent": "KGC CR3H",
-    "code": "CR3-B",
-    "start": "KNS4604.31973 .R37 2011",
-    "end": "KPP97.9 .K64 2009",
-    "map_image": "kgc_cr3_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC CR3H CR4",
-    "doctype": "range",
-    "parent": "KGC CR3H",
-    "code": "CR4",
-    "start": "KPP97.9 .P95 2011",
-    "end": "KPP460 .C75 2012",
-    "map_image": "kgc_cr4.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC CR3H CR5-A",
-    "doctype": "range",
-    "parent": "KGC CR3H",
-    "code": "CR5-A",
-    "start": "KPP472 .L56 2014",
-    "end": "KZA1145 .S55 2013",
-    "map_image": "kgc_cr5_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B1-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B1-A",
-    "start": "K1 .I6",
-    "end": "K583 .C66 2016",
-    "map_image": "kgc_b1_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B1-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B1-B",
-    "start": "K583 .G55 2001",
-    "end": "K1188 .A7 A77 1985",
-    "map_image": "kgc_b1_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B2-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B2-A",
-    "start": "K1188 .A7 B47 2011",
-    "end": "K1705 .R44 2008",
-    "map_image": "kgc_b2_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B2-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B2-B",
-    "start": "K1705 .R44 2010",
-    "end": "K3255 .W33 1995",
-    "map_image": "kgc_b2_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B3-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B3-A",
-    "start": "K3256 .B88 2015",
-    "end": "K4444 .I573 2012",
-    "map_image": "kgc_b3_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B3-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B3-B",
-    "start": "K4450 .O43 2009",
-    "end": "KD640 .A95 1991",
-    "map_image": "kgc_b3_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B4-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B4-A",
-    "start": "KD640 .C68 1994",
-    "end": "KD1480 .L49 2015",
-    "map_image": "kgc_b4_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B4-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B4-B",
-    "start": "KD1480 .P37 2003",
-    "end": "KD1752 .A5 2015",
-    "map_image": "kgc_b4_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B5-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B5-A",
-    "start": "KD1752 .O36 2003",
-    "end": "KD2079 .B87 2006",
-    "map_image": "kgc_b5_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B5-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B5-B",
-    "start": "KD2079 .C48 1997",
-    "end": "KD3989 .P37 2008",
-    "map_image": "kgc_b5_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B6-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B6-A",
-    "start": "KD3989 .P37 2010",
-    "end": "KD8371 .M87 2013",
-    "map_image": "kgc_b6_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B6-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B6-B",
-    "start": "KD8371 .R43 2015",
-    "end": "KF1477 .A7 G55 1995",
-    "map_image": "kgc_b6_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B7-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B7-A",
-    "start": "KF1477 .B79 2008",
-    "end": "KF4772 .B35 1992",
-    "map_image": "kgc_b7_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B7-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B7-B",
-    "start": "KF4783 .N66 2011",
-    "end": "KJC5144 .G39 J64 2013",
-    "map_image": "kgc_b7_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B8-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B8-A",
-    "start": "KJC5144 .M56 C34 2015",
-    "end": "KNQ62 .C56 2006",
-    "map_image": "kgc_b8_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B8-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B8-B",
-    "start": "KNQ62 .I58 2000",
-    "end": "KPG885 .M64 2015",
-    "map_image": "kgc_b8_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B9-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B9-A",
-    "start": "KPG885 .N55 2010",
-    "end": "KPP60 .A36 1993",
-    "map_image": "kgc_b9_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B9-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B9-B",
-    "start": "KPP66 .K48 1996",
-    "end": "KPT2070 .H37 2011",
-    "map_image": "kgc_b9_b.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B10-A",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B10-A",
-    "start": "KPV68 .I58 2016",
-    "end": "KZ1301 .K66 2016",
-    "map_image": "kgc_b10_a.png",
-    "map_background": null
-  },
-  {
-    "_id": "KGC LendingL4 B10-B",
-    "doctype": "range",
-    "parent": "KGC LendingL4",
-    "code": "B10-B",
-    "start": "KZ1301 .R47 2014",
-    "end": "KZA1146 .U6 R63 2012",
-    "map_image": "kgc_b10_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B1-A",
@@ -547,7 +429,8 @@
     "start": "K1 .I6",
     "end": "K583 .C66 2016",
     "map_image": "kgc_b1_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B1-B",
@@ -557,7 +440,8 @@
     "start": "K583 .G55 2001",
     "end": "K1188 .A7 A77 1985",
     "map_image": "kgc_b1_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B2-A",
@@ -567,7 +451,8 @@
     "start": "K1188 .A7 B47 2011",
     "end": "K1705 .R44 2008",
     "map_image": "kgc_b2_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B2-B",
@@ -577,7 +462,8 @@
     "start": "K1705 .R44 2010",
     "end": "K3255 .W33 1995",
     "map_image": "kgc_b2_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B3-A",
@@ -587,7 +473,8 @@
     "start": "K3256 .B88 2015",
     "end": "K4444 .I573 2012",
     "map_image": "kgc_b3_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B3-B",
@@ -597,7 +484,8 @@
     "start": "K4450 .O43 2009",
     "end": "KD640 .A95 1991",
     "map_image": "kgc_b3_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B4-A",
@@ -607,7 +495,8 @@
     "start": "KD640 .C68 1994",
     "end": "KD1480 .L49 2015",
     "map_image": "kgc_b4_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B4-B",
@@ -617,7 +506,8 @@
     "start": "KD1480 .P37 2003",
     "end": "KD1752 .A5 2015",
     "map_image": "kgc_b4_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B5-A",
@@ -627,7 +517,8 @@
     "start": "KD1752 .O36 2003",
     "end": "KD2079 .B87 2006",
     "map_image": "kgc_b5_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B5-B",
@@ -637,7 +528,8 @@
     "start": "KD2079 .C48 1997",
     "end": "KD3989 .P37 2008",
     "map_image": "kgc_b5_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B6-A",
@@ -647,7 +539,8 @@
     "start": "KD3989 .P37 2010",
     "end": "KD8371 .M87 2013",
     "map_image": "kgc_b6_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B6-B",
@@ -657,7 +550,8 @@
     "start": "KD8371 .R43 2015",
     "end": "KF1477 .A7 G55 1995",
     "map_image": "kgc_b6_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B7-A",
@@ -667,7 +561,8 @@
     "start": "KF1477 .B79 2008",
     "end": "KF4772 .B35 1992",
     "map_image": "kgc_b7_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B7-B",
@@ -677,7 +572,8 @@
     "start": "KF4783 .N66 2011",
     "end": "KJC5144 .G39 J64 2013",
     "map_image": "kgc_b7_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B8-A",
@@ -687,7 +583,8 @@
     "start": "KJC5144 .M56 C34 2015",
     "end": "KNQ62 .C56 2006",
     "map_image": "kgc_b8_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B8-B",
@@ -697,7 +594,8 @@
     "start": "KNQ62 .I58 2000",
     "end": "KPG885 .M64 2015",
     "map_image": "kgc_b8_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B9-A",
@@ -707,7 +605,8 @@
     "start": "KPG885 .N55 2010",
     "end": "KPP60 .A36 1993",
     "map_image": "kgc_b9_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B9-B",
@@ -717,7 +616,8 @@
     "start": "KPP66 .K48 1996",
     "end": "KPT2070 .H37 2011",
     "map_image": "kgc_b9_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B10-A",
@@ -727,7 +627,8 @@
     "start": "KPV68 .I58 2016",
     "end": "KZ1301 .K66 2016",
     "map_image": "kgc_b10_a.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "KGC 3DaysL4 B10-B",
@@ -737,6 +638,326 @@
     "start": "KZ1301 .R47 2014",
     "end": "KZA1146 .U6 R63 2012",
     "map_image": "kgc_b10_b.png",
-    "map_background": null
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B1-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B1-A",
+    "start": "K1 .I6",
+    "end": "K583 .C66 2016",
+    "map_image": "kgc_b1_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B1-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B1-B",
+    "start": "K583 .G55 2001",
+    "end": "K1188 .A7 A77 1985",
+    "map_image": "kgc_b1_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B2-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B2-A",
+    "start": "K1188 .A7 B47 2011",
+    "end": "K1705 .R44 2008",
+    "map_image": "kgc_b2_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B2-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B2-B",
+    "start": "K1705 .R44 2010",
+    "end": "K3255 .W33 1995",
+    "map_image": "kgc_b2_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B3-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B3-A",
+    "start": "K3256 .B88 2015",
+    "end": "K4444 .I573 2012",
+    "map_image": "kgc_b3_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B3-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B3-B",
+    "start": "K4450 .O43 2009",
+    "end": "KD640 .A95 1991",
+    "map_image": "kgc_b3_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B4-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B4-A",
+    "start": "KD640 .C68 1994",
+    "end": "KD1480 .L49 2015",
+    "map_image": "kgc_b4_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B4-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B4-B",
+    "start": "KD1480 .P37 2003",
+    "end": "KD1752 .A5 2015",
+    "map_image": "kgc_b4_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B5-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B5-A",
+    "start": "KD1752 .O36 2003",
+    "end": "KD2079 .B87 2006",
+    "map_image": "kgc_b5_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B5-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B5-B",
+    "start": "KD2079 .C48 1997",
+    "end": "KD3989 .P37 2008",
+    "map_image": "kgc_b5_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B6-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B6-A",
+    "start": "KD3989 .P37 2010",
+    "end": "KD8371 .M87 2013",
+    "map_image": "kgc_b6_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B6-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B6-B",
+    "start": "KD8371 .R43 2015",
+    "end": "KF1477 .A7 G55 1995",
+    "map_image": "kgc_b6_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B7-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B7-A",
+    "start": "KF1477 .B79 2008",
+    "end": "KF4772 .B35 1992",
+    "map_image": "kgc_b7_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B7-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B7-B",
+    "start": "KF4783 .N66 2011",
+    "end": "KJC5144 .G39 J64 2013",
+    "map_image": "kgc_b7_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B8-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B8-A",
+    "start": "KJC5144 .M56 C34 2015",
+    "end": "KNQ62 .C56 2006",
+    "map_image": "kgc_b8_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B8-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B8-B",
+    "start": "KNQ62 .I58 2000",
+    "end": "KPG885 .M64 2015",
+    "map_image": "kgc_b8_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B9-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B9-A",
+    "start": "KPG885 .N55 2010",
+    "end": "KPP60 .A36 1993",
+    "map_image": "kgc_b9_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B9-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B9-B",
+    "start": "KPP66 .K48 1996",
+    "end": "KPT2070 .H37 2011",
+    "map_image": "kgc_b9_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B10-A",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B10-A",
+    "start": "KPV68 .I58 2016",
+    "end": "KZ1301 .K66 2016",
+    "map_image": "kgc_b10_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC LendingL4 B10-B",
+    "doctype": "range",
+    "parent": "KGC LendingL4",
+    "code": "B10-B",
+    "start": "KZ1301 .R47 2014",
+    "end": "KZA1146 .U6 R63 2012",
+    "map_image": "kgc_b10_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC JournalsL4 ?",
+    "doctype": "range",
+    "parent": "KGC JournalsL4",
+    "code": "?",
+    "start": "?",
+    "end": "?",
+    "map_image": "kgc_?.png",
+    "map_background": null,
+    "enabled": false
+  },
+  {
+    "_id": "KGC ReportL4 ?",
+    "doctype": "range",
+    "parent": "KGC ReportL4",
+    "code": "?",
+    "start": "?",
+    "end": "?",
+    "map_image": "kgc_?.png",
+    "map_background": null,
+    "enabled": false
+  },
+  {
+    "_id": "KGC CR3H CR1",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR1",
+    "start": "HM216 .E84 2016",
+    "end": "K7625 .B735 2008",
+    "map_image": "kgc_cr1.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC CR3H CR2-A",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR2-A",
+    "start": "KBP144 .K36 2003",
+    "end": "KD1735 .E56 2011",
+    "map_image": "kgc_cr2_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC CR3H CR2-B",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR2-B",
+    "start": "KD1777 .I58 C53 2013",
+    "end": "KE5194 .B85 2016",
+    "map_image": "kgc_cr2_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC CR3H CR3-A",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR3-A",
+    "start": "KF240 .R636 1998",
+    "end": "KNS3542 .A31872 R38 2014",
+    "map_image": "kgc_cr3_a.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC CR3H CR3-B",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR3-B",
+    "start": "KNS4604.31973 .R37 2011",
+    "end": "KPP97.9 .K64 2009",
+    "map_image": "kgc_cr3_b.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC CR3H CR4",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR4",
+    "start": "KPP97.9 .P95 2011",
+    "end": "KPP460 .C75 2012",
+    "map_image": "kgc_cr4.png",
+    "map_background": null,
+    "enabled": true
+  },
+  {
+    "_id": "KGC CR3H CR5-A",
+    "doctype": "range",
+    "parent": "KGC CR3H",
+    "code": "CR5-A",
+    "start": "KPP472 .L56 2014",
+    "end": "KZA1145 .S55 2013",
+    "map_image": "kgc_cr5_a.png",
+    "map_background": null,
+    "enabled": true
   }
 ]
