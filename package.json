@@ -3,8 +3,10 @@
   "version": "1.1.0",
   "private": true,
   "scripts": {
-    "test": "./node_modules/.bin/mocha",
-    "start": "node ./index.js"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=6.9.1"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
