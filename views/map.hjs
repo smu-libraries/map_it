@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Item location for {{ call_number }}</title>
+    <title>{{# call_number }}Item location for {{ call_number }}{{/ call_number }}{{# range_code }}Map for {{ range_code }}{{/ range_code }}</title>
     <link rel="stylesheet" href="/map_it/public/stylesheets/style.css">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
     {{> google_analytics }}
