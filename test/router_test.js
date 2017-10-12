@@ -43,6 +43,8 @@ describe('router using test data', () => {
           assert(_view_data.length === 1);
           assert(_view_data[0].doctype === 'library');
           assert(_view_data[0].code === 'KGC');
+          assert(Array.isArray(_view_data[0].links));
+          assert(_view_data[0].links.find((x) => { return x.rel === 'self' }).href.endsWith('/libraries/KGC'));
         });
     });
   });
@@ -73,6 +75,8 @@ describe('router using test data', () => {
           assert(_view_data[0].doctype === 'location');
           assert(_view_data[0].parent === 'KGC');
           assert(_view_data[0].code === 'DisplayL3');
+          assert(Array.isArray(_view_data[0].links));
+          assert(_view_data[0].links.find((x) => { return x.rel === 'self' }).href.endsWith('/libraries/KGC/locations/DisplayL3'));
         });
     });
   });
@@ -98,13 +102,22 @@ describe('router using test data', () => {
 
   describe('get_range Lifestyle2', () => {
     it('should return exactly one range', () => {
-      return router.get_range({ params: { library_code: 'MAIN', location_code: 'Lifestyle', range_code: 'Lifestyle2' }}, res)
+      return router.get_range({
+        params: {
+          library_code: 'MAIN',
+          location_code: 'Lifestyle',
+          range_code: 'Lifestyle2'
+        },
+        query: {}
+      }, res)
         .then(() => {
           assert(Array.isArray(_view_data));
           assert(_view_data.length === 1);
           assert(_view_data[0].doctype === 'range');
           assert(_view_data[0].parent === 'MAIN Lifestyle');
           assert(_view_data[0].code === 'Lifestyle2');
+          assert(Array.isArray(_view_data[0].links));
+          assert(_view_data[0].links.find((x) => { return x.rel === 'self' }).href.endsWith('/libraries/MAIN/locations/Lifestyle/ranges/Lifestyle2'));
         });
     });
   });
@@ -126,6 +139,8 @@ describe('router using test data', () => {
           assert(_view_data[0].parent === 'MAIN Lifestyle');
           assert(_view_data[0].start === 'B105 .T54');
           assert(_view_data[0].end === 'PR6066 .A6956');
+          assert(Array.isArray(_view_data[0].links));
+          assert(_view_data[0].links.find((x) => { return x.rel === 'self' }).href.endsWith('/libraries/MAIN/locations/Lifestyle/ranges/Lifestyle1'));
         });
     });
   });
@@ -147,6 +162,8 @@ describe('router using test data', () => {
           assert(_view_data[0].parent === 'MAIN Lifestyle');
           assert(_view_data[0].start === 'B105 .T54');
           assert(_view_data[0].end === 'PR6066 .A6956');
+          assert(Array.isArray(_view_data[0].links));
+          assert(_view_data[0].links.find((x) => { return x.rel === 'self' }).href.endsWith('/libraries/MAIN/locations/Lifestyle/ranges/Lifestyle1'));
         });
     });
   });
@@ -173,6 +190,8 @@ describe('router using test data', () => {
           assert(_view_data.docs[0].parent === 'MAIN Lifestyle');
           assert(_view_data.docs[0].start === 'B105 .T54');
           assert(_view_data.docs[0].end === 'PR6066 .A6956');
+          assert(Array.isArray(_view_data.docs[0].links));
+          assert(_view_data.docs[0].links.find((x) => { return x.rel === 'self' }).href.endsWith('/libraries/MAIN/locations/Lifestyle/ranges/Lifestyle1'));
         });
     });
   });
@@ -199,6 +218,8 @@ describe('router using test data', () => {
           assert(_view_data.docs[0].parent === 'MAIN Lifestyle');
           assert(_view_data.docs[0].start === 'B105 .T54');
           assert(_view_data.docs[0].end === 'PR6066 .A6956');
+          assert(Array.isArray(_view_data.docs[0].links));
+          assert(_view_data.docs[0].links.find((x) => { return x.rel === 'self' }).href.endsWith('/libraries/MAIN/locations/Lifestyle/ranges/Lifestyle1'));
         });
     });
   });
