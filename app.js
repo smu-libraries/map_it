@@ -24,6 +24,14 @@ app.use(cookieParser());
 app.use('/map_it/public', express.static(path.join(__dirname, 'public')));
 app.use(helmet());
 
+app.enable('trust proxy');
+app.use((req, res, next) => {
+  /** Azure removes the X-Forwarded-Proto header. */
+  if (!req.headers['x-forwarded-proto'] && req.headers['x-arr-ssl']) req.headers['x-forwarded-proto'] = req.headers['x-arr-ssl'];
+
+  return next();
+});
+
 app.use('/map_it', v1);
 
 // catch 404 and forward to error handler
