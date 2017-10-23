@@ -1,8 +1,10 @@
 let assert = require('assert');
 let path = require('path');
-let router = require('../lib/router');
+let router = require('../lib/v1');
 router.use_datastore(path.join(__dirname, 'sample_datastore.json'));
 
+let req_protocol = 'https';
+let req_headers = { host: 'example.com' };
 let _view_template = '';
 let _view_data = {};
 let res = {
@@ -23,7 +25,7 @@ beforeEach(() => {
 describe('router using test data', () => {
   describe('get_libraries', () => {
     it('should return two different libraries', () => {
-      return router.get_libraries({}, res)
+      return router.get_libraries({ protocol: req_protocol, headers: req_headers }, res)
         .then(() => {
           assert(Array.isArray(_view_data));
           assert(_view_data.length === 2);
@@ -35,9 +37,27 @@ describe('router using test data', () => {
     });
   });
 
+  describe('get_library XXX', () => {
+    it('should return no results', () => {
+      return router.get_library({
+        protocol: req_protocol,
+        headers: req_headers,
+        params: { library_code: 'XXX' }
+      }, res)
+        .then(() => {
+          assert(Array.isArray(_view_data));
+          assert(_view_data.length === 0);
+        });
+    });
+  });
+
   describe('get_library KGC', () => {
     it('should return exactly one library', () => {
-      return router.get_library({ params: { library_code: 'KGC' }}, res)
+      return router.get_library({
+        protocol: req_protocol,
+        headers: req_headers,
+        params: { library_code: 'KGC' }
+      }, res)
         .then(() => {
           assert(Array.isArray(_view_data));
           assert(_view_data.length === 1);
@@ -51,7 +71,11 @@ describe('router using test data', () => {
 
   describe('get_locations MAIN', () => {
     it('should return two different locations', () => {
-      return router.get_locations({ params: { library_code: 'MAIN' }}, res)
+      return router.get_locations({
+        protocol: req_protocol,
+        headers: req_headers,
+        params: { library_code: 'MAIN' }
+      }, res)
         .then(() => {
           assert(Array.isArray(_view_data));
           assert(_view_data.length === 2);
@@ -68,7 +92,14 @@ describe('router using test data', () => {
 
   describe('get_location DisplayL3', () => {
     it('should return exactly one location', () => {
-      return router.get_location({ params: { library_code: 'KGC', location_code: 'DisplayL3' }}, res)
+      return router.get_location({
+        protocol: req_protocol,
+        headers: req_headers,
+        params: {
+          library_code: 'KGC',
+          location_code: 'DisplayL3'
+        }
+      }, res)
         .then(() => {
           assert(Array.isArray(_view_data));
           assert(_view_data.length === 1);
@@ -83,7 +114,14 @@ describe('router using test data', () => {
 
   describe('get_ranges Lifestyle', () => {
     it('should return three different ranges', () => {
-      return router.get_ranges({ params: { library_code: 'MAIN', location_code: 'Lifestyle' }}, res)
+      return router.get_ranges({
+        protocol: req_protocol,
+        headers: req_headers,
+        params: {
+          library_code: 'MAIN',
+          location_code: 'Lifestyle'
+        }
+      }, res)
         .then(() => {
           assert(Array.isArray(_view_data));
           assert(_view_data.length === 3);
@@ -103,6 +141,8 @@ describe('router using test data', () => {
   describe('get_range Lifestyle2', () => {
     it('should return exactly one range', () => {
       return router.get_range({
+        protocol: req_protocol,
+        headers: req_headers,
         params: {
           library_code: 'MAIN',
           location_code: 'Lifestyle',
@@ -125,6 +165,8 @@ describe('router using test data', () => {
   describe('get_range_by_call_number O123 .O123 O123 1234', () => {
     it('should return exactly one range', () => {
       return router.get_range_by_call_number({
+        protocol: req_protocol,
+        headers: req_headers,
         params: {
           library_code: 'MAIN',
           location_code: 'Lifestyle',
@@ -148,6 +190,8 @@ describe('router using test data', () => {
   describe('get_range_by_call_number O123+.O123+O123+1234', () => {
     it('should return exactly one range', () => {
       return router.get_range_by_call_number({
+        protocol: req_protocol,
+        headers: req_headers,
         params: {
           library_code: 'MAIN',
           location_code: 'Lifestyle',
@@ -171,6 +215,8 @@ describe('router using test data', () => {
   describe('get_range_by_call_number O123 .O123 O123 1234 in map view', () => {
     it('should render a single object', () => {
       return router.get_range_by_call_number({
+        protocol: req_protocol,
+        headers: req_headers,
         params: {
           library_code: 'MAIN',
           location_code: 'Lifestyle',
@@ -199,6 +245,8 @@ describe('router using test data', () => {
   describe('get_range_by_call_number O123+.O123+O123+1234 in map view', () => {
     it('should render a single object', () => {
       return router.get_range_by_call_number({
+        protocol: req_protocol,
+        headers: req_headers,
         params: {
           library_code: 'MAIN',
           location_code: 'Lifestyle',
