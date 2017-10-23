@@ -23,6 +23,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use('/map_it/public', express.static(path.join(__dirname, 'public')));
 app.use(helmet());
+app.use(helmet.contentSecurityPolicy({ directives: { defaultSrc: ["'self'"] } }));
+app.use(helmet.noCache());
+app.use(helmet.referrerPolicy());
 
 app.enable('trust proxy');
 app.use((req, res, next) => {
