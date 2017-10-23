@@ -23,9 +23,30 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(helmet());
-app.use(helmet.contentSecurityPolicy({ directives: { defaultSrc: ["'self'"] } }));
+app.use(helmet.contentSecurityPolicy({
+  directives: {
+    defaultSrc: ["'none'"],
+    styleSrc: ["'self'"],
+    imgSrc: ["'self'"],
+    scriptSrc: ["'unsafe-inline'", 'www.google-analytics.com'],
+    reportUri: 'https://be37585b9eac08181012c0a06e6f132a.report-uri.io/r/default/csp/enforce'
+  }
+}));
 app.use(helmet.noCache());
 app.use(helmet.referrerPolicy());
+app.use(helmet.hpkp({
+  maxAge: 2,
+  sha256s: [
+    'CzdPous1hY3sIkO55pUH7vklXyIHVZAl/UnprSQvpEI=',
+    'xjXxgkOYlag7jCtR5DreZm9b61iaIhd+J3+b2LiybIw=',
+    'wBdPad95AU7OgLRs0FU/E6ILO1MSCM84kJ9y0H+TT7s=',
+    'wUY9EOTJmS7Aj4fDVCu/KeE++mV7FgIcbn4WhMz1I2k=',
+    'RCbqB+W8nwjznTeP4O6VjqcwdxIgI79eBpnBKRr32gc='
+  ],
+  includeSubdomains: true,
+  reportUri: 'https://be37585b9eac08181012c0a06e6f132a.report-uri.io/r/default/hpkp/reportOnly',
+  reportOnly: true
+}));
 
 app.enable('trust proxy');
 app.use((req, res, next) => {
