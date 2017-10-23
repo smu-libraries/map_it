@@ -9,7 +9,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 let helmet = require('helmet');
 
-let v1 = require('./lib/router');
+let v1 = require('./lib/v1');
 v1.use_datastore(path.join(__dirname, 'data', 'datastore.json'));
 
 var app = express();
@@ -35,7 +35,7 @@ app.use((req, res, next) => {
   return next();
 });
 
-app.use('/map_it', v1);
+app.use('/v1', v1);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
