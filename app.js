@@ -53,8 +53,7 @@ app.use(helmet.hpkp({
     'RCbqB+W8nwjznTeP4O6VjqcwdxIgI79eBpnBKRr32gc='
   ],
   includeSubdomains: true,
-  reportUri: 'https://be37585b9eac08181012c0a06e6f132a.report-uri.io/r/default/hpkp/reportOnly',
-  reportOnly: true,
+  reportUri: 'https://be37585b9eac08181012c0a06e6f132a.report-uri.io/r/default/hpkp/enforce',
   setIf: (req, res) => { return req.secure; }
 }));
 
