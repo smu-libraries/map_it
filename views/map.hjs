@@ -4,6 +4,7 @@
     <title>{{# call_number }}Item location for {{ call_number }}{{/ call_number }}{{# range_code }}Map for {{ range_code }}{{/ range_code }}</title>
     <link rel="stylesheet" href="/public/stylesheets/style.css">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+    <script src="/public/scripts/google_analytics.js" async></script>
   </head>
   <body>
     <div id="map_container">
