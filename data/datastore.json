@@ -21,7 +21,7 @@
     "parent": "MAIN",
     "code": "3 Days L3",
     "name": "3 Days Level 3",
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L4",
@@ -37,7 +37,7 @@
     "parent": "MAIN",
     "code": "LendingL3",
     "name": "Books Level 3",
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL4",
@@ -77,7 +77,7 @@
     "parent": "MAIN",
     "code": "JournalL3",
     "name": "Journals Level 3",
-    "enabled": true
+    "enabled": false
   },
   {
     "_id": "MAIN Equipment",
@@ -228,495 +228,506 @@
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B1-A",
-    "start": 0,
-    "end": 0,
+    "start": "HF54.5 .P33 1999",
+    "end": "HF1359 .W67 2006",
     "map_image": "main_l3_b1_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B1-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B1-B",
-    "start": 0,
-    "end": 0,
+    "start": "HF1359 .Y68 2007",
+    "end": "HF1418.5 .N483 2002",
     "map_image": "main_l3_b1_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B2-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B2-A",
-    "start": 0,
-    "end": 0,
+    "start": "HF1418.5 .N484 2000",
+    "end": "HF5386 .S77 2013",
     "map_image": "main_l3_b2_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B2-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B2-B",
-    "start": 0,
-    "end": 0,
+    "start": "HF5386 .S8894 2006",
+    "end": "HF5415 .S228 2012",
     "map_image": "main_l3_b2_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B3-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B3-A",
-    "start": 0,
-    "end": 0,
+    "start": "HF5415 .S229 2009",
+    "end": "HF5415.153 .G784 2001",
     "map_image": "main_l3_b3_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B3-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B3-B",
-    "start": 0,
-    "end": 0,
+    "start": "HF5415.153 .H368 2008",
+    "end": "HF5429 .L4828 2004",
     "map_image": "main_l3_b3_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B4-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B4-A",
-    "start": 0,
-    "end": 0,
+    "start": "HF5429 .L4828 2012",
+    "end": "HF5548.4 .M525 B685 2001",
     "map_image": "main_l3_b4_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B4-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B4-B",
-    "start": 0,
-    "end": 0,
+    "start": "HF5548.4 .M525 K748 2007",
+    "end": "HF5549.5 .M5 U53 2007",
     "map_image": "main_l3_b4_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B5-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B5-A",
-    "start": 0,
-    "end": 0,
+    "start": "HF5549.5 .M5 Z45 2013",
+    "end": "HF5625.15 .P38 2006",
     "map_image": "main_l3_b5_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B5-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B5-B",
-    "start": 0,
-    "end": 0,
+    "start": "HF5625.15 .R47 v.4",
+    "end": "HF5635 .M5857 2002",
     "map_image": "main_l3_b5_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B6-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B6-A",
-    "start": 0,
-    "end": 0,
+    "start": "HF5635 .M5857 2013",
+    "end": "HF5657.4 .M328 2001",
     "map_image": "main_l3_b6_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B6-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B6-B",
-    "start": 0,
-    "end": 0,
+    "start": "HF5657.4 .M3284 1999",
+    "end": "HF5681 .B2 H65 2002",
     "map_image": "main_l3_b6_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B7-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B7-A",
-    "start": 0,
-    "end": 0,
+    "start": "HF5681 .B2 H847 2005",
+    "end": "HF5691 .H36 2012",
     "map_image": "main_l3_b7_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B7-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B7-B",
-    "start": 0,
-    "end": 0,
+    "start": "HF5691 .K3382 1998",
+    "end": "HG173 .B46 2008",
     "map_image": "main_l3_b7_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B8-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B8-A",
-    "start": 0,
-    "end": 0,
+    "start": "HG173 .B47 1992",
+    "end": "HG187.4 .G853 2008",
     "map_image": "main_l3_b8_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B8-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B8-B",
-    "start": 0,
-    "end": 0,
+    "start": "HG187.4 .I65 2007",
+    "end": "HG2463 .W45 S76 2002",
     "map_image": "main_l3_b8_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B9-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B9-A",
-    "start": 0,
-    "end": 0,
+    "start": "HG2463 .W45 W45 2006",
+    "end": "HG3881 .W38 1981",
     "map_image": "main_l3_b9_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B9-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B9-B",
-    "start": 0,
-    "end": 0,
+    "start": "HG3881 .W65 2008",
+    "end": "HG4028 .B8 H36 1999",
     "map_image": "main_l3_b9_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B10-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B10-A",
-    "start": 0,
-    "end": 0,
+    "start": "HG4028 .B8 S558 1994",
+    "end": "HG4515.3 .A38 2001",
     "map_image": "main_l3_b10_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B10-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B10-B",
-    "start": 0,
-    "end": 0,
+    "start": "HG4515.3 .B76 2004",
+    "end": "HG4529 .G7 2005",
     "map_image": "main_l3_b10_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B11-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B11-A",
-    "start": 0,
-    "end": 0,
+    "start": "HG4529 .G877 2004",
+    "end": "HG4751 .L43 2012",
     "map_image": "main_l3_b11_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B11-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B11-B",
-    "start": 0,
-    "end": 0,
+    "start": "HG4751 .L47 2012",
+    "end": "HG4963 .G66 1999",
     "map_image": "main_l3_b11_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B12-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B12-A",
-    "start": 0,
-    "end": 0,
+    "start": "HG4963 .G66 2004",
+    "end": "HG6046 .E39 2017",
     "map_image": "main_l3_b12_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B12-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B12-B",
-    "start": 0,
-    "end": 0,
+    "start": "HG6046 .G37 2009",
+    "end": "HM263 .H3444 2000",
     "map_image": "main_l3_b12_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B13-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B13-A",
-    "start": 0,
-    "end": 0,
+    "start": "HM263 .O5925 1997",
+    "end": "HM711 .L81913 1995",
     "map_image": "main_l3_b13_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B13-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B13-B",
-    "start": 0,
-    "end": 0,
+    "start": "HM711 .M33 2016 v.1",
+    "end": "HM1121 .K75 2007",
     "map_image": "main_l3_b13_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B14-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B14-A",
-    "start": 0,
-    "end": 0,
+    "start": "HM1121 .M37 2013",
+    "end": "HQ759.46 .S86 2007",
     "map_image": "main_l3_b14_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B14-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B14-B",
-    "start": 0,
-    "end": 0,
+    "start": "HQ759.48 .L54 2007",
+    "end": "HT388 .F85 2002",
     "map_image": "main_l3_b14_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B15-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B15-A",
-    "start": 0,
-    "end": 0,
+    "start": "HT388 .R439 2001",
+    "end": "J500 .K2 C65 2003",
     "map_image": "main_l3_b15_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B15-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B15-B",
-    "start": 0,
-    "end": 0,
+    "start": "J1401 .R6 1988",
+    "end": "JC571 .D775 2007",
     "map_image": "main_l3_b15_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B16-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B16-A",
-    "start": 0,
-    "end": 0,
+    "start": "JC571 .E42 2004",
+    "end": "JN248 .C5542 2010",
     "map_image": "main_l3_b16_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B16-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B16-B",
-    "start": 0,
-    "end": 0,
+    "start": "JN318 .D86 2013",
+    "end": "JV8755.5 .I465 2014",
     "map_image": "main_l3_b16_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B17-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B17-A",
-    "start": 0,
-    "end": 0,
+    "start": "JV8755.5 .M54 2015",
+    "end": "LA227.4 .C525 2011",
     "map_image": "main_l3_b17_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B17-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B17-B",
-    "start": 0,
-    "end": 0,
+    "start": "LA227.4 .D346 2007",
+    "end": "LC149 .U85 2012",
     "map_image": "main_l3_b17_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B18-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B18-A",
-    "start": 0,
-    "end": 0,
+    "start": "LC149.5 .E16 2015",
+    "end": "ND1030 .S53 C442 1996",
     "map_image": "main_l3_b18_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B18-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B18-B",
-    "start": 0,
-    "end": 0,
+    "start": "ND1030 .S53 C442 2001",
+    "end": "P149 .E35 2000",
     "map_image": "main_l3_b18_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B19-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B19-A",
-    "start": 0,
-    "end": 0,
+    "start": "P151 .C64 2007",
+    "end": "PL5073 .S64 2000",
     "map_image": "main_l3_b19_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B19-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B19-B",
-    "start": 0,
-    "end": 0,
+    "start": "PL5075 .A88 1996",
+    "end": "PR21 .R87 2001",
     "map_image": "main_l3_b19_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B20-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B20-A",
-    "start": 0,
-    "end": 0,
+    "start": "PR35 .G75 2009",
+    "end": "PR9570 .S53 L477 2011",
     "map_image": "main_l3_b20_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B20-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B20-B",
-    "start": 0,
-    "end": 0,
+    "start": "PR9570 .S53 L4776 1999",
+    "end": "Q162 .G23 1988",
     "map_image": "main_l3_b20_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B21-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B21-A",
-    "start": 0,
-    "end": 0,
+    "start": "Q162 .K678 2002 v.1",
+    "end": "QA76.76 .R42 F69 1999",
     "map_image": "main_l3_b21_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B21-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B21-B",
-    "start": 0,
-    "end": 0,
+    "start": "QA76.76 .R44 C54 2010",
+    "end": "QA274.23 .O94 2011",
     "map_image": "main_l3_b21_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B22-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B22-A",
-    "start": 0,
-    "end": 0,
+    "start": "QA274.23 .P8513 2001",
+    "end": "QH332 .D89 2013",
     "map_image": "main_l3_b22_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B22-B",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B22-B",
-    "start": 0,
-    "end": 0,
+    "start": "QH332 .R675 2015",
+    "end": "T55.8 .W46 2000",
     "map_image": "main_l3_b22_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L3 B23-A",
     "doctype": "range",
     "parent": "MAIN 3 Days L3",
     "code": "B23-A",
-    "start": 0,
-    "end": 0,
+    "start": "T55.9 .K37 1997",
+    "end": "TS115 .D75 2013",
     "map_image": "main_l3_b23_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
+  },
+  {
+    "_id": "MAIN 3 Days L3 B23-B",
+    "doctype": "range",
+    "parent": "MAIN 3 Days L3",
+    "code": "B23-B",
+    "start": "TS115 .G17 2002",
+    "end": "ZA4482 .L54 2009",
+    "map_image": "main_l3_b23_b.png",
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN 3 Days L4 B1-A",
@@ -1207,405 +1218,506 @@
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B1-A",
+    "start": "HF54.5 .P33 1999",
+    "end": "HF1359 .W67 2006",
     "map_image": "main_l3_b1_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B1-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B1-B",
+    "start": "HF1359 .Y68 2007",
+    "end": "HF1418.5 .N483 2002",
     "map_image": "main_l3_b1_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B2-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B2-A",
+    "start": "HF1418.5 .N484 2000",
+    "end": "HF5386 .S77 2013",
     "map_image": "main_l3_b2_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B2-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B2-B",
+    "start": "HF5386 .S8894 2006",
+    "end": "HF5415 .S228 2012",
     "map_image": "main_l3_b2_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B3-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B3-A",
+    "start": "HF5415 .S229 2009",
+    "end": "HF5415.153 .G784 2001",
     "map_image": "main_l3_b3_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B3-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B3-B",
+    "start": "HF5415.153 .H368 2008",
+    "end": "HF5429 .L4828 2004",
     "map_image": "main_l3_b3_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B4-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B4-A",
+    "start": "HF5429 .L4828 2012",
+    "end": "HF5548.4 .M525 B685 2001",
     "map_image": "main_l3_b4_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B4-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B4-B",
+    "start": "HF5548.4 .M525 K748 2007",
+    "end": "HF5549.5 .M5 U53 2007",
     "map_image": "main_l3_b4_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B5-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B5-A",
+    "start": "HF5549.5 .M5 Z45 2013",
+    "end": "HF5625.15 .P38 2006",
     "map_image": "main_l3_b5_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B5-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B5-B",
+    "start": "HF5625.15 .R47 v.4",
+    "end": "HF5635 .M5857 2002",
     "map_image": "main_l3_b5_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B6-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B6-A",
+    "start": "HF5635 .M5857 2013",
+    "end": "HF5657.4 .M328 2001",
     "map_image": "main_l3_b6_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B6-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B6-B",
+    "start": "HF5657.4 .M3284 1999",
+    "end": "HF5681 .B2 H65 2002",
     "map_image": "main_l3_b6_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B7-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B7-A",
+    "start": "HF5681 .B2 H847 2005",
+    "end": "HF5691 .H36 2012",
     "map_image": "main_l3_b7_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B7-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B7-B",
+    "start": "HF5691 .K3382 1998",
+    "end": "HG173 .B46 2008",
     "map_image": "main_l3_b7_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B8-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B8-A",
+    "start": "HG173 .B47 1992",
+    "end": "HG187.4 .G853 2008",
     "map_image": "main_l3_b8_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B8-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B8-B",
+    "start": "HG187.4 .I65 2007",
+    "end": "HG2463 .W45 S76 2002",
     "map_image": "main_l3_b8_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B9-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B9-A",
+    "start": "HG2463 .W45 W45 2006",
+    "end": "HG3881 .W38 1981",
     "map_image": "main_l3_b9_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B9-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B9-B",
+    "start": "HG3881 .W65 2008",
+    "end": "HG4028 .B8 H36 1999",
     "map_image": "main_l3_b9_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B10-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B10-A",
+    "start": "HG4028 .B8 S558 1994",
+    "end": "HG4515.3 .A38 2001",
     "map_image": "main_l3_b10_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B10-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B10-B",
+    "start": "HG4515.3 .B76 2004",
+    "end": "HG4529 .G7 2005",
     "map_image": "main_l3_b10_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B11-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B11-A",
+    "start": "HG4529 .G877 2004",
+    "end": "HG4751 .L43 2012",
     "map_image": "main_l3_b11_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B11-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B11-B",
+    "start": "HG4751 .L47 2012",
+    "end": "HG4963 .G66 1999",
     "map_image": "main_l3_b11_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B12-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B12-A",
+    "start": "HG4963 .G66 2004",
+    "end": "HG6046 .E39 2017",
     "map_image": "main_l3_b12_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B12-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B12-B",
+    "start": "HG6046 .G37 2009",
+    "end": "HM263 .H3444 2000",
     "map_image": "main_l3_b12_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B13-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B13-A",
+    "start": "HM263 .O5925 1997",
+    "end": "HM711 .L81913 1995",
     "map_image": "main_l3_b13_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B13-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B13-B",
+    "start": "HM711 .M33 2016 v.1",
+    "end": "HM1121 .K75 2007",
     "map_image": "main_l3_b13_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B14-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B14-A",
+    "start": "HM1121 .M37 2013",
+    "end": "HQ759.46 .S86 2007",
     "map_image": "main_l3_b14_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B14-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B14-B",
+    "start": "HQ759.48 .L54 2007",
+    "end": "HT388 .F85 2002",
     "map_image": "main_l3_b14_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B15-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B15-A",
+    "start": "HT388 .R439 2001",
+    "end": "J500 .K2 C65 2003",
     "map_image": "main_l3_b15_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B15-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B15-B",
+    "start": "J1401 .R6 1988",
+    "end": "JC571 .D775 2007",
     "map_image": "main_l3_b15_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B16-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B16-A",
+    "start": "JC571 .E42 2004",
+    "end": "JN248 .C5542 2010",
     "map_image": "main_l3_b16_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B16-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B16-B",
+    "start": "JN318 .D86 2013",
+    "end": "JV8755.5 .I465 2014",
     "map_image": "main_l3_b16_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B17-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B17-A",
+    "start": "JV8755.5 .M54 2015",
+    "end": "LA227.4 .C525 2011",
     "map_image": "main_l3_b17_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B17-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B17-B",
+    "start": "LA227.4 .D346 2007",
+    "end": "LC149 .U85 2012",
     "map_image": "main_l3_b17_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B18-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B18-A",
+    "start": "LC149.5 .E16 2015",
+    "end": "ND1030 .S53 C442 1996",
     "map_image": "main_l3_b18_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B18-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B18-B",
+    "start": "ND1030 .S53 C442 2001",
+    "end": "P149 .E35 2000",
     "map_image": "main_l3_b18_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B19-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B19-A",
+    "start": "P151 .C64 2007",
+    "end": "PL5073 .S64 2000",
     "map_image": "main_l3_b19_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B19-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B19-B",
+    "start": "PL5075 .A88 1996",
+    "end": "PR21 .R87 2001",
     "map_image": "main_l3_b19_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B20-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B20-A",
+    "start": "PR35 .G75 2009",
+    "end": "PR9570 .S53 L477 2011",
     "map_image": "main_l3_b20_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B20-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B20-B",
+    "start": "PR9570 .S53 L4776 1999",
+    "end": "Q162 .G23 1988",
     "map_image": "main_l3_b20_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B21-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B21-A",
+    "start": "Q162 .K678 2002 v.1",
+    "end": "QA76.76 .R42 F69 1999",
     "map_image": "main_l3_b21_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B21-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B21-B",
+    "start": "QA76.76 .R44 C54 2010",
+    "end": "QA274.23 .O94 2011",
     "map_image": "main_l3_b21_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B22-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B22-A",
+    "start": "QA274.23 .P8513 2001",
+    "end": "QH332 .D89 2013",
     "map_image": "main_l3_b22_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B22-B",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B22-B",
+    "start": "QH332 .R675 2015",
+    "end": "T55.8 .W46 2000",
     "map_image": "main_l3_b22_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL3 B23-A",
     "doctype": "range",
     "parent": "MAIN LendingL3",
     "code": "B23-A",
+    "start": "T55.9 .K37 1997",
+    "end": "TS115 .D75 2013",
     "map_image": "main_l3_b23_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
+  },
+  {
+    "_id": "MAIN LendingL3 B23-B",
+    "doctype": "range",
+    "parent": "MAIN LendingL3",
+    "code": "B23-B",
+    "start": "TS115 .G17 2002",
+    "end": "ZA4482 .L54 2009",
+    "map_image": "main_l3_b23_b.png",
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN LendingL4 B1-A",
@@ -2008,44 +2120,36 @@
     "doctype": "range",
     "parent": "MAIN JournalL3",
     "code": "J1-A",
-    "start": "B1 .J6",
-    "end": "HB172.5 .A44",
     "map_image": "main_l3_j1_a.png",
     "map_background": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "_id": "MAIN JournalL3 J1-B",
     "doctype": "range",
     "parent": "MAIN JournalL3",
     "code": "J1-B",
-    "start": "HD28 .A24",
-    "end": "HF5601 .J73",
     "map_image": "main_l3_j1_b.png",
     "map_background": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "_id": "MAIN JournalL3 J2-A",
     "doctype": "range",
     "parent": "MAIN JournalL3",
     "code": "J2-A",
-    "start": "HF5601 .M39",
-    "end": "HM403 .A44",
     "map_image": "main_l3_j2_a.png",
     "map_background": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "_id": "MAIN JournalL3 J2-B",
     "doctype": "range",
     "parent": "MAIN JournalL3",
     "code": "J2-B",
-    "start": "HN700.67 .S63",
-    "end": "T1 .S5",
     "map_image": "main_l3_j2_b.png",
     "map_background": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "_id": "MAIN Lifestyle L-A",
