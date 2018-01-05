@@ -37,25 +37,11 @@ app.use(helmet.contentSecurityPolicy({
     defaultSrc: ["'none'"],
     styleSrc: ["'self'"],
     imgSrc: ["'self'", 'www.google-analytics.com'],
-    scriptSrc: ["'self'", 'www.google-analytics.com'],
-    reportUri: 'https://be37585b9eac08181012c0a06e6f132a.report-uri.io/r/default/csp/enforce'
+    scriptSrc: ["'self'", 'www.google-analytics.com']
   }
 }));
 app.use(helmet.noCache());
 app.use(helmet.referrerPolicy());
-app.use(helmet.hpkp({
-  maxAge: 604800,  /** 7 days */
-  sha256s: [
-    'CzdPous1hY3sIkO55pUH7vklXyIHVZAl/UnprSQvpEI=',  /** intermediate CA for Azure cert  */
-    'xjXxgkOYlag7jCtR5DreZm9b61iaIhd+J3+b2LiybIw=',
-    'wBdPad95AU7OgLRs0FU/E6ILO1MSCM84kJ9y0H+TT7s=',
-    'wUY9EOTJmS7Aj4fDVCu/KeE++mV7FgIcbn4WhMz1I2k=',
-    'RCbqB+W8nwjznTeP4O6VjqcwdxIgI79eBpnBKRr32gc='
-  ],
-  includeSubdomains: true,
-  reportUri: 'https://be37585b9eac08181012c0a06e6f132a.report-uri.io/r/default/hpkp/enforce',
-  setIf: (req, res) => { return req.secure; }
-}));
 
 app.use('/v1', v1);
 
