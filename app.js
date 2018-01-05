@@ -37,8 +37,7 @@ app.use(helmet.contentSecurityPolicy({
     defaultSrc: ["'none'"],
     styleSrc: ["'self'"],
     imgSrc: ["'self'", 'www.google-analytics.com'],
-    scriptSrc: ["'self'", 'www.google-analytics.com'],
-    reportUri: 'https://be37585b9eac08181012c0a06e6f132a.report-uri.io/r/default/csp/enforce'
+    scriptSrc: ["'self'", 'www.google-analytics.com']
   }
 }));
 app.use(helmet.noCache());
