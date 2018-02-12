@@ -10,6 +10,7 @@
 
 let command_line_args = require('command-line-args');
 let fs = require('fs');
+let util = require('util');
 let xlsx = require('xlsx');
 
 let args = command_line_args([
@@ -27,12 +28,14 @@ let args = command_line_args([
 
 let workbook = xlsx.readFile(args.input);  /** bails out with ENOENT if file not found */
 
-let libraries = xlsx.utils.sheet_to_json(workbook.Sheets['Libraries'], { raw: true });
-let locations = xlsx.utils.sheet_to_json(workbook.Sheets['Locations'], { raw: true });
-let ranges = xlsx.utils.sheet_to_json(workbook.Sheets['Ranges'], { raw: true });
+let libraries = xlsx.utils.sheet_to_json(workbook.Sheets.Libraries, { raw: true });
+let locations = xlsx.utils.sheet_to_json(workbook.Sheets.Locations, { raw: true });
+let ranges = xlsx.utils.sheet_to_json(workbook.Sheets.Ranges, { raw: true });
 
 let null_replacer = (k, v) => {
-  return v == 'null' ? null : v;
+  return v === 'null' ? null : v;
 };
 
-fs.writeFileSync(args.output, JSON.stringify(libraries.concat(locations, ranges), null_replacer, 2));
+/** Use promisify instead of adding a callback function to the call. */
+let writeFile = util.promisify(fs.writeFile);
+writeFile(args.output, JSON.stringify(libraries.concat(locations, ranges), null_replacer, 2));
