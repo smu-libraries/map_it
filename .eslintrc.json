@@ -1,7 +1,8 @@
 {
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "mocha": true
   },
   "extends": "eslint:recommended",
   "parserOptions": {
@@ -121,7 +122,12 @@
     "max-lines": "error",
     "max-nested-callbacks": "error",
     "max-params": "off",
-    "max-statements": "error",
+    "max-statements": [
+      "error",
+      {
+        "max": 15
+      }
+    ],
     "max-statements-per-line": "off",
     "multiline-comment-style": "error",
     "new-parens": "error",
