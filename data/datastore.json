@@ -77,7 +77,7 @@
     "parent": "MAIN",
     "code": "JournalL3",
     "name": "Journals Level 3",
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN Equipment",
@@ -2208,36 +2208,55 @@
     "doctype": "range",
     "parent": "MAIN JournalL3",
     "code": "J1-A",
+    "start": "B1 .J6",
+    "end": "HB1 .J642",
     "map_image": "main_l3_j1_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN JournalL3 J1-B",
     "doctype": "range",
     "parent": "MAIN JournalL3",
     "code": "J1-B",
+    "start": "HB1 .M27",
+    "end": "HB1 .M27",
     "map_image": "main_l3_j1_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
+  },
+  {
+    "_id": "MAIN JournalL3 J1-C",
+    "doctype": "range",
+    "parent": "MAIN JournalL3",
+    "code": "J1-C",
+    "start": "HB99.5 .J68",
+    "end": "HD61 .J67",
+    "map_image": "main_l3_j1_c.png",
+    "map_background": null,
+    "enabled": true
   },
   {
     "_id": "MAIN JournalL3 J2-A",
     "doctype": "range",
     "parent": "MAIN JournalL3",
     "code": "J2-A",
+    "start": "HD87 .A44",
+    "end": "HF5601 .J73",
     "map_image": "main_l3_j2_a.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN JournalL3 J2-B",
     "doctype": "range",
     "parent": "MAIN JournalL3",
     "code": "J2-B",
+    "start": "HF5601 .M39",
+    "end": "T1 .S5",
     "map_image": "main_l3_j2_b.png",
     "map_background": null,
-    "enabled": false
+    "enabled": true
   },
   {
     "_id": "MAIN Lifestyle L-A",
