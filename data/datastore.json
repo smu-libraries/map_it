@@ -120,11 +120,11 @@
     "enabled": true
   },
   {
-    "_id": "MAIN CRMedia",
+    "_id": "MAIN DVR-R",
     "doctype": "location",
     "parent": "MAIN",
-    "code": "CRMedia",
-    "name": "Reserves Media",
+    "code": "DVD-R",
+    "name": "DVD Reserves",
     "enabled": true
   },
   {
@@ -2347,9 +2347,9 @@
     "enabled": true
   },
   {
-    "_id": "MAIN CRMedia CRM",
+    "_id": "MAIN DVD-R CRM",
     "doctype": "range",
-    "parent": "MAIN CRMedia",
+    "parent": "MAIN DVD-R",
     "code": "CRM",
     "start": "DS774 .C45 2007",
     "end": "VK203 .P573 2011",
